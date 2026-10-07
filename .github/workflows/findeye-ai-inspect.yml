@@ -1,47 +1,50 @@
-name: Inspect FindEye AI Models
+name: Build FindEye Real AI APK
 
 on:
   push:
     branches:
       - findeye-real-ai-v2
-  pull_request:
-    paths:
-      - '.github/workflows/findeye-ai-inspect.yml'
-      - 'findeye-ai/**'
 
 jobs:
-  inspect:
+  build:
     runs-on: ubuntu-latest
+    env:
+      ANDROID_HOME: /usr/local/lib/android/sdk
+      ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-python@v6
+
+      - uses: actions/setup-java@v5
         with:
-          python-version: '3.12'
-      - name: Download OWL-ViT ONNX
+          distribution: temurin
+          java-version: '17'
+
+      - name: Android SDK
         run: |
-          mkdir -p /tmp/owl
-          curl -L --fail --retry 3 -o /tmp/owl.zip "https://qaihub-public-assets.s3.us-west-2.amazonaws.com/qai-hub-models/models/owl_vit/releases/v0.63.0/owl_vit-onnx-w8a16.zip"
-          echo "ZIP SIZE:"
-          ls -lh /tmp/owl.zip
-          unzip -q /tmp/owl.zip -d /tmp/owl
-          echo "FILES:"
-          find /tmp/owl -type f -printf '%p %s bytes\n'
-      - name: Inspect ONNX graph
+          echo "/usr/local/lib/android/sdk/cmdline-tools/latest/bin" >> "$GITHUB_PATH"
+          yes | /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --licenses >/dev/null || true
+          /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-35" "build-tools;35.0.0" "platform-tools"
+
+      - name: Download tokenizer assets
         run: |
-          pip install -q onnx
-          python - <<'PY'
-          import onnx, glob, os
-          for p in glob.glob('/tmp/owl/**/*.onnx', recursive=True):
-              m=onnx.load(p, load_external_data=False)
-              print('MODEL', p, os.path.getsize(p))
-              print('INPUTS')
-              for x in m.graph.input:
-                  t=x.type.tensor_type
-                  dims=[d.dim_value if d.dim_value else d.dim_param for d in t.shape.dim]
-                  print(x.name, t.elem_type, dims)
-              print('OUTPUTS')
-              for x in m.graph.output:
-                  t=x.type.tensor_type
-                  dims=[d.dim_value if d.dim_value else d.dim_param for d in t.shape.dim]
-                  print(x.name, t.elem_type, dims)
-          PY
+          mkdir -p findeye-ai/app/src/main/assets
+          curl -L --fail --retry 3 -o findeye-ai/app/src/main/assets/vocab.json "https://huggingface.co/google/owlvit-base-patch32/resolve/main/vocab.json"
+          curl -L --fail --retry 3 -o findeye-ai/app/src/main/assets/merges.txt "https://huggingface.co/google/owlvit-base-patch32/resolve/main/merges.txt"
+          ls -lh findeye-ai/app/src/main/assets
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+
+      - name: Build APK
+        working-directory: findeye-ai
+        run: gradle assembleDebug --stacktrace
+
+      - name: Prepare APK
+        run: cp findeye-ai/app/build/outputs/apk/debug/app-debug.apk FindEye-Real-AI.apk
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FindEye-Real-AI
+          path: FindEye-Real-AI.apk
+          retention-days: 1
