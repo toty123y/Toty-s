@@ -5,6 +5,10 @@ on:
     paths:
       - 'findeye/**'
       - '.github/workflows/findeye-build.yml'
+  pull_request:
+    paths:
+      - 'findeye/**'
+      - '.github/workflows/findeye-build.yml'
 
 jobs:
   build:
