@@ -1,1 +1,1 @@
-inspect yolo world assets
+inspect OWL-ViT ONNX
