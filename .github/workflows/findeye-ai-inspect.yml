@@ -14,14 +14,31 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
-      - name: Install Qualcomm model CLI
-        run: pip install qai_hub_models_cli
-      - name: Show fetch help
-        run: qai-hub-models fetch --help
-      - name: Fetch YOLO World TFLite
+      - name: Download OWL-ViT ONNX
         run: |
-          mkdir -p findeye-ai/models
-          cd findeye-ai/models
-          qai-hub-models fetch yolo_world --runtime tflite --precision w8a8
+          mkdir -p /tmp/owl
+          curl -L --fail --retry 3 -o /tmp/owl.zip "https://qaihub-public-assets.s3.us-west-2.amazonaws.com/qai-hub-models/models/owl_vit/releases/v0.63.0/owl_vit-onnx-w8a16.zip"
+          echo "ZIP SIZE:"
+          ls -lh /tmp/owl.zip
+          unzip -q /tmp/owl.zip -d /tmp/owl
           echo "FILES:"
-          find . -maxdepth 3 -type f -printf '%p %s bytes\n'
+          find /tmp/owl -type f -printf '%p %s bytes\n'
+      - name: Inspect ONNX graph
+        run: |
+          pip install -q onnx
+          python - <<'PY'
+          import onnx, glob, os
+          for p in glob.glob('/tmp/owl/**/*.onnx', recursive=True):
+              m=onnx.load(p, load_external_data=False)
+              print('MODEL', p, os.path.getsize(p))
+              print('INPUTS')
+              for x in m.graph.input:
+                  t=x.type.tensor_type
+                  dims=[d.dim_value if d.dim_value else d.dim_param for d in t.shape.dim]
+                  print(x.name, t.elem_type, dims)
+              print('OUTPUTS')
+              for x in m.graph.output:
+                  t=x.type.tensor_type
+                  dims=[d.dim_value if d.dim_value else d.dim_param for d in t.shape.dim]
+                  print(x.name, t.elem_type, dims)
+          PY
