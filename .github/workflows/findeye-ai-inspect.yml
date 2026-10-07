@@ -1,6 +1,9 @@
 name: Inspect FindEye AI Models
 
 on:
+  push:
+    branches:
+      - findeye-real-ai-v2
   pull_request:
     paths:
       - '.github/workflows/findeye-ai-inspect.yml'
