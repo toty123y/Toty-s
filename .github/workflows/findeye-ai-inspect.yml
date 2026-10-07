@@ -1,0 +1,27 @@
+name: Inspect FindEye AI Models
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/findeye-ai-inspect.yml'
+      - 'findeye-ai/**'
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install Qualcomm model CLI
+        run: pip install qai_hub_models_cli
+      - name: Show fetch help
+        run: qai-hub-models fetch --help
+      - name: Fetch YOLO World TFLite
+        run: |
+          mkdir -p findeye-ai/models
+          cd findeye-ai/models
+          qai-hub-models fetch yolo_world --runtime tflite --precision w8a8
+          echo "FILES:"
+          find . -maxdepth 3 -type f -printf '%p %s bytes\n'
