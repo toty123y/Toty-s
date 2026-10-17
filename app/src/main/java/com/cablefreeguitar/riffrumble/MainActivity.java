@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
   final Handler ui = new Handler(Looper.getMainLooper());
   final ExecutorService worker = Executors.newSingleThreadExecutor();
   SharedPreferences prefs;
+  Promotions promotions;
   JSONArray questions = new JSONArray(), soloQuestions;
   JSONObject room;
   LinearLayout content;
@@ -43,6 +44,7 @@ public class MainActivity extends Activity {
   @Override public void onCreate(Bundle state) {
     super.onCreate(state);
     prefs=getSharedPreferences("cfg-riff-settings",MODE_PRIVATE);
+    promotions=new Promotions(this);
     dark=prefs.getBoolean("dark",true); playerName=prefs.getString("name","");
     try(InputStream stream=getAssets().open("questions.json")) {
       ByteArrayOutputStream out=new ByteArrayOutputStream();
@@ -77,9 +79,9 @@ public class MainActivity extends Activity {
       else {leave();code=c;screen="join";renderSafe();}
     }
   }
-  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);ui.removeCallbacks(questionsTicker);ui.post(questionsTicker);if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
+  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);ui.removeCallbacks(questionsTicker);ui.post(questionsTicker);if(promotions!=null)promotions.refresh();if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
   @Override protected void onPause(){active=false;ui.removeCallbacks(ticker);ui.removeCallbacks(pollTask);ui.removeCallbacks(questionsTicker);super.onPause();}
-  @Override protected void onDestroy(){generation++;worker.shutdownNow();ui.removeCallbacksAndMessages(null);super.onDestroy();}
+  @Override protected void onDestroy(){generation++;if(promotions!=null)promotions.close();worker.shutdownNow();ui.removeCallbacksAndMessages(null);super.onDestroy();}
   @Override public void onSaveInstanceState(Bundle b){
     super.onSaveInstanceState(b);b.putString("screen",screen);b.putBoolean("solo",solo);b.putInt("rounds",rounds);b.putInt("seconds",seconds);b.putString("category",category);
     b.putString("code",code);b.putString("token",playerToken);b.putString("host",hostToken);
@@ -238,6 +240,8 @@ public class MainActivity extends Activity {
     action("Create Game",true,v->{solo=false;screen="create";renderSafe();});
     action("Join Game",false,v->{solo=false;screen="join";renderSafe();});
     action("Play Solo · Offline",false,v->{solo=true;screen="create";renderSafe();});
+    promotions.show("home");
+    action("Promotion country: "+promotions.regionLabel(),false,v->choosePromotionCountry());
     eyebrow("ROCK · GEAR · LEGENDS · THEORY · STUDIO");paragraph("Built for music people. Fresh questions, online rooms, light and dark mode.");
   }
   void setup(){
@@ -317,8 +321,27 @@ public class MainActivity extends Activity {
     eyebrow("AMPS OFF. SCORES IN.");headline(solo?"YOU ROCKED\nTHE SET.":"FINAL ENCORE.");
     if(solo){headline(soloPoints+" POINTS");paragraph(soloCorrect+" / "+rounds+" correct");}
     else if(room!=null){JSONArray p=room.optJSONArray("players");if(p!=null&&p.length()>0)paragraph("CHAMPION: "+p.optJSONObject(0).optString("name"));players(p,true);}
-    action("PLAY AGAIN",true,v->{boolean oldSolo=solo;leave();solo=oldSolo;screen="create";renderSafe();});
+    promotions.show("results");
+    action("PLAY AGAIN",true,v->{boolean oldSolo=solo;leave();promotions.newGame();solo=oldSolo;screen="create";renderSafe();});
     action("BACK HOME",false,v->home());
+  }
+  void choosePromotionCountry(){
+    String[] codes=Locale.getISOCountries();
+    java.util.ArrayList<String[]> countries=new java.util.ArrayList<>();
+    for(String iso:codes){
+      String label=new Locale("",iso).getDisplayCountry(Locale.ENGLISH);
+      if(label!=null&&!label.trim().isEmpty())countries.add(new String[]{label,iso});
+    }
+    java.util.Collections.sort(countries,(a,b)->a[0].compareToIgnoreCase(b[0]));
+    String[] labels=new String[countries.size()+1];
+    labels[0]="Automatic (approximate location)";
+    for(int i=0;i<countries.size();i++)labels[i+1]=countries.get(i)[0];
+    new AlertDialog.Builder(this).setTitle("Choose your promotion country")
+      .setItems(labels,(dialog,position)->{
+        String selected=position==0?"":countries.get(position-1)[1];
+        promotions.changeRegion(selected);
+        renderSafe();
+      }).setNegativeButton("Cancel",null).show();
   }
   void toast(String s){Toast.makeText(this,s,Toast.LENGTH_LONG).show();}
   void share(){
@@ -331,7 +354,7 @@ public class MainActivity extends Activity {
     code="";playerToken="";hostToken="";room=null;soloQuestions=null;solo=false;
     prefs.edit().remove("room").remove("token").remove("host").apply();
   }
-  void home(){leave();screen="home";renderSafe();}
+  void home(){leave();promotions.newGame();screen="home";renderSafe();}
   @Override public void onBackPressed(){
     if(screen.equals("home")){super.onBackPressed();return;}
     if(screen.equals("game")||screen.equals("lobby")||screen.equals("reconnect")){
