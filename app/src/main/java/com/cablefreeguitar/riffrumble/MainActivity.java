@@ -19,6 +19,9 @@ import java.util.concurrent.*;
 
 public class MainActivity extends Activity {
   static final String API = "https://cfg-riff-rumble.gonzaley.chatgpt.site";
+  static final String QUESTIONS_URL = "https://raw.githubusercontent.com/toty123y/Toty-s/cfg-riff-rumble-android-repair/app/src/main/assets/questions.json";
+  static final String QUESTION_CACHE = "questions-remote.json";
+  static final long QUESTION_POLL_MS = 30L * 60L * 1000L;
   static final String[] IDS = {"all","rock","gear","legends","theory","studio"};
   static final String[] NAMES = {"The Full Mix","Rock & Bands","Guitar & Gear","Music Legends","Music Theory","Studio & Sound"};
   final Handler ui = new Handler(Looper.getMainLooper());
@@ -31,7 +34,8 @@ public class MainActivity extends Activity {
   String screen="home", category="all", code="", playerToken="", hostToken="", playerName="";
   int rounds=10, seconds=20, soloIndex=0, soloPoints=0, soloCorrect=0, soloAnswer=-1, generation=0;
   long deadline=0, clockOffset=0;
-  boolean dark=true, solo=false, revealed=false, busy=false, polling=false, active=false;
+  boolean dark=true, solo=false, revealed=false, busy=false, polling=false, active=false, syncingQuestions=false;
+  final Runnable questionsTicker=new Runnable(){public void run(){if(active) { syncQuestions(); ui.postDelayed(this,QUESTION_POLL_MS); }};};
   int bg, ink, muted, panel, border, accent, primary, buttonInk;
   final Runnable ticker = new Runnable() { public void run() { if(!active)return; updateClock(); ui.postDelayed(this,300); } };
   final Runnable pollTask = new Runnable() { public void run() { pollRoom(); } };
@@ -45,7 +49,8 @@ public class MainActivity extends Activity {
       byte[] buf=new byte[8192]; int n; while((n=stream.read(buf))!=-1)out.write(buf,0,n);
       questions=new JSONArray(out.toString("UTF-8"));
       if(questions.length()!=657)throw new IOException("Missing questions");
-    } catch(Exception e) { fail("Unable to load 657 questions",e);return; }
+    } catch(Exception e) { fail("Unable to load built-in questions",e);return; }
+    loadSavedQuestions();
     if(state!=null) {
       screen=state.getString("screen","home"); solo=state.getBoolean("solo",false);
       rounds=state.getInt("rounds",10); seconds=state.getInt("seconds",20); category=state.getString("category","all");
@@ -72,14 +77,81 @@ public class MainActivity extends Activity {
       else {leave();code=c;screen="join";renderSafe();}
     }
   }
-  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
-  @Override protected void onPause(){active=false;ui.removeCallbacks(ticker);ui.removeCallbacks(pollTask);super.onPause();}
+  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);ui.removeCallbacks(questionsTicker);ui.post(questionsTicker);if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
+  @Override protected void onPause(){active=false;ui.removeCallbacks(ticker);ui.removeCallbacks(pollTask);ui.removeCallbacks(questionsTicker);super.onPause();}
   @Override protected void onDestroy(){generation++;worker.shutdownNow();ui.removeCallbacksAndMessages(null);super.onDestroy();}
   @Override public void onSaveInstanceState(Bundle b){
     super.onSaveInstanceState(b);b.putString("screen",screen);b.putBoolean("solo",solo);b.putInt("rounds",rounds);b.putInt("seconds",seconds);b.putString("category",category);
     b.putString("code",code);b.putString("token",playerToken);b.putString("host",hostToken);
     b.putInt("index",soloIndex);b.putInt("points",soloPoints);b.putInt("correct",soloCorrect);b.putInt("answer",soloAnswer);b.putLong("deadline",deadline);b.putBoolean("revealed",revealed);
     if(room!=null)b.putString("room",room.toString());if(soloQuestions!=null)b.putString("soloQuestions",soloQuestions.toString());
+  }
+
+  // The installed APK always has a built-in offline bank.
+  // On startup load the last verified downloaded bank, then refresh it in the background.
+  // This does not change the hosted multiplayer server's own question database.
+  void loadSavedQuestions(){
+    File saved=new File(getFilesDir(),QUESTION_CACHE);
+    if(!saved.isFile())return;
+    try(FileInputStream in=new FileInputStream(saved)){
+      JSONArray remote=parseBank(in);
+      if(validBank(remote))questions=remote;
+    }catch(Exception e){android.util.Log.w("CFG-Riff-Rumble","Ignoring invalid cached questions",e);}
+  }
+  JSONArray parseBank(InputStream in)throws Exception{
+    ByteArrayOutputStream bytes=new ByteArrayOutputStream();byte[] buffer=new byte[8192];int n;
+    while((n=in.read(buffer))!=-1){bytes.write(buffer,0,n);if(bytes.size()>12000000)throw new IOException("Question bank too large");}
+    return new JSONArray(bytes.toString("UTF-8"));
+  }
+  boolean validBank(JSONArray bank){
+    if(bank==null||bank.length()<657||bank.length()>10000)return false;
+    HashSet<String> prompts=new HashSet<>();
+    for(int i=0;i<bank.length();i++){
+      JSONObject q=bank.optJSONObject(i);
+      if(q==null||q.optString("prompt").trim().length()<8||!prompts.add(q.optString("prompt").trim().toLowerCase(Locale.ROOT)))return false;
+      JSONArray options=q.optJSONArray("options");int answer=q.optInt("correct_index",-1);
+      if(options==null||options.length()!=4||answer<0||answer>3)return false;
+      for(int j=0;j<4;j++)if(options.optString(j).trim().isEmpty())return false;
+      if(!Arrays.asList(IDS).contains(q.optString("category")))return false;
+    }
+    return true;
+  }
+  void syncQuestions(){
+    if(syncingQuestions || System.currentTimeMillis()-prefs.getLong("last_question_sync",0)<15*60*1000L)return;
+    syncingQuestions=true;
+    worker.execute(()->{
+      HttpURLConnection connection=null;JSONArray downloaded=null;String raw=null;
+      try{
+        connection=(HttpURLConnection)new URL(QUESTIONS_URL).openConnection();
+        connection.setConnectTimeout(10000);connection.setReadTimeout(15000);
+        connection.setUseCaches(false);connection.setRequestProperty("Cache-Control","no-cache");
+        int status=connection.getResponseCode();
+        if(status!=200)throw new IOException("Question sync HTTP "+status);
+        try(InputStream in=connection.getInputStream()){
+          ByteArrayOutputStream bytes=new ByteArrayOutputStream();byte[] buffer=new byte[8192];int n;
+          while((n=in.read(buffer))!=-1){bytes.write(buffer,0,n);if(bytes.size()>12000000)throw new IOException("Question bank too large");}
+          raw=bytes.toString("UTF-8");downloaded=new JSONArray(raw);
+        }
+        if(!validBank(downloaded))throw new IOException("Remote questions failed verification");
+        File temporary=new File(getFilesDir(),"questions-next.json");
+        File stable=new File(getFilesDir(),QUESTION_CACHE);
+        try(FileOutputStream output=new FileOutputStream(temporary)){output.write(raw.getBytes("UTF-8"));output.getFD().sync();}
+        if(!temporary.renameTo(stable)){
+          try(FileOutputStream output=new FileOutputStream(stable)){output.write(raw.getBytes("UTF-8"));output.getFD().sync();}
+          temporary.delete();
+        }
+      }catch(Exception e){android.util.Log.w("CFG-Riff-Rumble","Question sync skipped, offline bank remains usable",e);}
+      finally{if(connection!=null)connection.disconnect();}
+      final JSONArray updated=downloaded;
+      ui.post(()->{
+        syncingQuestions=false;
+        if(updated!=null&&!isFinishing()&&!isDestroyed()&&validBank(updated)){
+          questions=updated;
+          prefs.edit().putLong("last_question_sync",System.currentTimeMillis()).apply();
+          android.util.Log.i("CFG-Riff-Rumble","Questions updated: "+questions.length());
+        }
+      });
+    });
   }
   void fail(String text,Throwable exception) {
     android.util.Log.e("CFG-Riff-Rumble",text,exception);
@@ -162,11 +234,11 @@ public class MainActivity extends Activity {
   void homeScreen(){
     eyebrow("PLAY LOUD. THINK FAST.");headline("TURN UP\nTHE TRIVIA.");
     paragraph("Your riffs. Your friends. Your bragging rights.");
-    TextView art=text("⚡\n657\nQUESTIONS",43,accent,true);art.setGravity(Gravity.CENTER);art.setPadding(dp(14),dp(21),dp(14),dp(21));art.setBackground(fill(panel,border,20));add(art,24);
+    TextView art=text("⚡\nRIFF\nRUMBLE",43,accent,true);art.setGravity(Gravity.CENTER);art.setPadding(dp(14),dp(21),dp(14),dp(21));art.setBackground(fill(panel,border,20));add(art,24);
     action("Create Game",true,v->{solo=false;screen="create";renderSafe();});
     action("Join Game",false,v->{solo=false;screen="join";renderSafe();});
     action("Play Solo · Offline",false,v->{solo=true;screen="create";renderSafe();});
-    eyebrow("ROCK · GEAR · LEGENDS · THEORY · STUDIO");paragraph("Built for music people. 657 questions, online rooms, light and dark mode.");
+    eyebrow("ROCK · GEAR · LEGENDS · THEORY · STUDIO");paragraph("Built for music people. Fresh questions, online rooms, light and dark mode.");
   }
   void setup(){
     back();eyebrow(solo?"OFFLINE SOLO SESSION":"CREATE ONLINE GAME");headline("BUILD YOUR\nSETLIST.");nameInput();
