@@ -1,0 +1,5 @@
+{
+  "enabled": false,
+  "feedUrl": "",
+  "comment": "Fails closed until Shopify-backed verified promotions endpoint and kill switch are configured. Never enable without end-to-end tests."
+}
