@@ -1,7 +1,7 @@
 name: CFG Riff Rumble Android APK
 on:
   push:
-    branches: [cfg-riff-rumble-android-repair]
+    branches: [cfg-riff-rumble-android-repair, cfg-riff-shopify-promotions]
   workflow_dispatch:
   pull_request:
     branches: [main]
@@ -27,14 +27,14 @@ jobs:
       - name: Build real Android APK
         run: gradle --no-daemon :app:assembleDebug
       - name: Prepare release
-        run: cp app/build/outputs/apk/debug/app-debug.apk CFG-Riff-Rumble-Fixed.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk CFG-Riff-Rumble-Promotions-Beta.apk
       - uses: actions/upload-artifact@v4
         with:
-          name: CFG-Riff-Rumble-Fixed
-          path: CFG-Riff-Rumble-Fixed.apk
+          name: CFG-Riff-Rumble-Promotions-Beta
+          path: CFG-Riff-Rumble-Promotions-Beta.apk
       - name: Publish direct APK release
         if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create cfg-riff-rumble-android-v2.3 CFG-Riff-Rumble-Fixed.apk --title "CFG Riff Rumble Android v2.3" --notes "Adds automatic remote question updates for solo play, with offline backup. CFG dark and light modes. Native Android." --target ${{ github.sha }}
+          gh release create cfg-riff-rumble-android-v2.4-beta CFG-Riff-Rumble-Promotions-Beta.apk --title "CFG Riff Rumble Android v2.4 Beta" --notes "Beta build. Adds fail-closed Shopify promotions placements on Home/Results, remote-off-by-default switch, market selection, CFG themes; NOT live until Shopify is connected." --target ${{ github.sha }}
