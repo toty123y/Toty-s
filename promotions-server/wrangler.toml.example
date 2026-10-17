@@ -1,0 +1,19 @@
+name = "cfg-riff-promotions"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+# KEEP OFF until Shopify APIs, secure sync, verified discounts and cart flow work.
+# Configure PROMOTION_CACHE and DB IDs after creating them in your own Cloudflare account.
+# [[kv_namespaces]]
+# binding = "PROMOTION_CACHE"
+# id = "REPLACE_WITH_REAL_KV_ID"
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "cfg-riff-promotions"
+# database_id = "REPLACE_WITH_REAL_D1_ID"
+
+[triggers]
+# 5-min verification check + 09:00 Israeli time Monday, DST-aware check in script
+crons = ["*/5 * * * *", "0 6,7 * * 1"]
+
+# Owner keys, webhooks, Shopify tokens MUST be Cloudflare secrets, never this file.
