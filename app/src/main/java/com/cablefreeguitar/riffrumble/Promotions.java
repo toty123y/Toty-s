@@ -117,7 +117,7 @@ public final class Promotions {
   private static boolean trustedApi(String value){
     try{
       Uri u=Uri.parse(value);
-      if(!"https".equalsIgnoreCase(u.getScheme())||u.getHost()==null||u.getUserInfo()!=null)return false;
+      if(!"https".equalsIgnoreCase(u.getScheme())||u.getHost()==null||u.getEncodedAuthority()==null||u.getEncodedAuthority().contains("@"))return false;
       String host=u.getHost().toLowerCase(Locale.US);
       return host.equals("cablefreeguitar.com")||host.equals("www.cablefreeguitar.com")||
              host.endsWith(".workers.dev")||host.equals("cfg-riff-rumble.gonzaley.chatgpt.site");
