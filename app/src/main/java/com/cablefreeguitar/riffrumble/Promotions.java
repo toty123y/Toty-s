@@ -3,7 +3,7 @@ package com.cablefreeguitar.riffrumble;
 import android.app.*;
 import android.content.*;
 import android.graphics.*;
-import android.net.Uri;
+import android.net.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
@@ -29,12 +29,37 @@ public final class Promotions {
   private final ArrayList<Offer> items=new ArrayList<>();
   private final Set<String> impressions=new HashSet<>();
   private String feedUrl="",metricsUrl="",homeId="",resultId="";
-  private boolean dismissed=false,enabled=false,loading=false,closed=false;
+  private boolean dismissed=false,enabled=false,loading=false,closed=false,active=false,networkListening=false;
+  private final Runnable recheck=new Runnable(){public void run(){if(active&&!closed){refresh();ui.postDelayed(this,5*60*1000L);}}};
+  private final ConnectivityManager.NetworkCallback networkCallback=new ConnectivityManager.NetworkCallback(){
+    @Override public void onLost(Network network){ui.post(()->{if(closed)return;enabled=false;items.clear();choose();if(app.screen.equals("home")||app.screen.equals("finished"))app.renderSafe();});}
+    @Override public void onAvailable(Network network){ui.post(()->{if(active&&!closed)refresh();});}
+  };
   private long fetchedAt=0;
   private int revision=0,gameId=0;
 
   Promotions(MainActivity activity){app=activity;}
-  void close(){closed=true;revision++;io.shutdownNow();}
+  boolean online(){
+    try {
+      ConnectivityManager c=(ConnectivityManager)app.getSystemService(Context.CONNECTIVITY_SERVICE);
+      Network n=c.getActiveNetwork();NetworkCapabilities caps=c.getNetworkCapabilities(n);
+      return caps!=null&&caps.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED);
+    }catch(Exception e){return false;}
+  }
+  void begin(){
+    active=true;refresh();ui.removeCallbacks(recheck);ui.postDelayed(recheck,5*60*1000L);
+    if(!networkListening)try{
+      ((ConnectivityManager)app.getSystemService(Context.CONNECTIVITY_SERVICE)).registerDefaultNetworkCallback(networkCallback);
+      networkListening=true;
+    }catch(Exception ignored){}
+  }
+  void stop(){
+    active=false;ui.removeCallbacks(recheck);
+    if(networkListening)try{
+      ((ConnectivityManager)app.getSystemService(Context.CONNECTIVITY_SERVICE)).unregisterNetworkCallback(networkCallback);
+    }catch(Exception ignored){}finally{networkListening=false;}
+  }
+  void close(){stop();closed=true;revision++;io.shutdownNow();}
   boolean isDismissed(){return dismissed;}
   void dismiss(){dismissed=true;app.renderSafe();}
   void newGame(){gameId++;homeId="";resultId="";impressions.clear();choose();}
@@ -74,6 +99,11 @@ public final class Promotions {
     // Hide existing ads until Shopify's backend confirms current validity.
     enabled=false;items.clear();homeId="";resultId="";
     loading=true;final int run=++revision;
+    if(!online()){
+      loading=false;
+      if(app.screen.equals("home")||app.screen.equals("finished"))app.renderSafe();
+      return;
+    }
     if(app.screen.equals("home")||app.screen.equals("finished"))app.renderSafe();
     io.execute(()->{
       ArrayList<Offer> fresh=new ArrayList<>();
@@ -145,7 +175,7 @@ public final class Promotions {
     }finally{c.disconnect();}
   }
   void show(String placement){
-    if(dismissed||!enabled||System.currentTimeMillis()-fetchedAt>5*60*1000L)return;
+    if(dismissed||!enabled||!online()||System.currentTimeMillis()-fetchedAt>5*60*1000L)return;
     Offer offer=find(placement.equals("home")?homeId:resultId);
     if(offer==null)return;
     LinearLayout outer=app.col();
