@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CFG Riff Rumble | Promotion Preview</title>
+<style>
+:root{font:15px system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:dark;--bg:#0d110d;--panel:#192217;--border:#334331;--text:#f7f9f5;--muted:#b2c1a9;--acid:#b9fb55;--button:#17230d}
+[data-theme=light]{color-scheme:light;--bg:#f5f7f1;--panel:#fff;--border:#d1dccd;--text:#142112;--muted:#4f5d4e;--acid:#385d1d;--button:#fff}
+*{box-sizing:border-box}body{margin:0;background:#161b14;color:#f4faf1}.wrapper{max-width:1050px;margin:0 auto;padding:25px;display:grid;grid-template-columns:minmax(275px,1fr) minmax(300px,1fr);gap:30px}
+h1{font-size:29px;line-height:1.1;margin:0 0 9px}h2{font-size:15px;margin:0 0 10px}.hint{color:#afc4a4;font-size:13px;line-height:1.5}.editor{background:#20291d;border-radius:18px;padding:20px}
+label{font-size:12px;color:#c4d8bc;display:block;margin:15px 0 6px}input,select,button{width:100%;font:inherit;border:1px solid #54624c;border-radius:10px;padding:12px;background:#151d13;color:white}input[type=file]{padding:8px}button{cursor:pointer;font-weight:800}
+.fieldrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}.previewControls{display:flex;gap:8px;margin-bottom:12px}
+.previewControls button{background:#283727;flex:1;font-size:13px}.previewControls button.active{outline:2px solid #b9fb55}
+.phone{background:var(--bg);color:var(--text);padding:22px;border:4px solid #343d34;border-radius:34px;min-height:600px;box-shadow:0 15px 50px #0006;transition:background .2s,color .2s}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.02em}.badge{padding:9px;background:#b9fb55;border-radius:9px;color:#15210c}
+.big{font-size:37px;font-weight:1000;line-height:1.04;margin:38px 0 20px}.play{padding:15px;background:#b9fb55;border-radius:10px;color:#17220e;text-align:center;font-weight:900;margin:10px 0}.play.secondary{background:transparent;color:var(--text);border:1px solid var(--border)}.ad{position:relative;background:var(--panel);border:1px solid var(--border);border-radius:13px;padding:16px;margin:23px 0}
+.eyebrow{font-size:10px;letter-spacing:.08em;color:var(--acid);font-weight:900;max-width:calc(100% - 25px)}.close{position:absolute;right:7px;top:7px;width:32px;padding:5px;border:0;background:transparent;color:var(--muted)}
+.photo{max-width:100%;width:100%;max-height:180px;object-fit:contain;margin:10px auto;display:none}.headline{font-size:22px;font-weight:900;margin:12px 0 6px}.subtitle{font-size:13px;color:var(--muted)}.price{font-size:19px;color:var(--acid);font-weight:900;margin:12px 0}.coupon{color:var(--acid);font-size:13px;font-weight:800}.cta{background:#b9fb55;color:#15210c;text-align:center;padding:14px;border-radius:10px;font-weight:900;margin-top:12px}.score{text-align:center;font-size:46px;font-weight:900;margin-top:20px}
+.note{margin:10px 0 0;color:#afc4a4;font-size:12px;line-height:1.5}@media(max-width:720px){.wrapper{grid-template-columns:1fr;gap:12px;padding:14px}.phone{min-height:470px}.editor{padding:15px}}
+</style>
+</head>
+<body>
+<div class="wrapper">
+<section class="editor">
+<h1>RIFF RUMBLE<br>PROMO PREVIEW</h1>
+<p class="hint">PRIVATE DESIGN PREVIEW ONLY. No deal is published or validated, and no Shopify connection is used here.</p>
+<div class="fieldrow">
+<div><label>Placement</label><select id="placement"><option value="home">Home</option><option value="results">Results</option></select></div>
+<div><label>Priority</label><select id="priority"><option>Normal</option><option>High</option><option>Low</option></select></div>
+</div>
+<label>Headline</label><input id="headline" maxlength="85" value="Small tuner. Big deal.">
+<label>Subtitle</label><input id="subtitle" maxlength="170" value="Buy 2, Get 1 Free on DeadOn.">
+<div class="fieldrow">
+<div><label>Verified local price preview</label><input id="price" value="$59.98 for 3"></div>
+<div><label>Promo code</label><input id="code" value="DOB2G1F"></div>
+</div>
+<label>CTA text</label><input id="cta" maxlength="45" value="GRAB THE DEAL">
+<label>Upload custom ad image (optional)</label><input id="photo" type="file" accept="image/*">
+<button id="reset" style="margin-top:18px">Reset sample preview</button>
+<p class="note">Prices and codes shown here are editable design samples, NOT verified live promotions. Real ads must be approved and validated by Shopify on the backend.</p>
+</section>
+<section>
+<div class="previewControls"><button id="dark" class="active">DARK MODE</button><button id="light">LIGHT MODE</button></div>
+<div id="phone" class="phone" data-theme="dark">
+<div class="brand"><span class="badge">CFG</span> RIFF RUMBLE</div>
+<div id="homeUI"><div class="big">TURN UP<br>THE TRIVIA.</div><div class="play">CREATE GAME</div><div class="play secondary">JOIN GAME</div></div>
+<div id="resultsUI" hidden><div class="score">🏆<br>YOU ROCK!</div><p style="text-align:center">FINAL SCORE: 8,450</p></div>
+<div id="ad" class="ad"><span class="eyebrow">A LITTLE SOMETHING FROM CFG</span><button class="close" aria-label="Hide preview" id="closeAd">×</button><img id="previewImage" class="photo" alt="Promotion preview"><div class="headline" id="pHeadline"></div><div class="subtitle" id="pSubtitle"></div><div class="price" id="pPrice"></div><div class="coupon" id="pCode"></div><div class="cta" id="pCta"></div></div>
+<div id="resultsBottom" hidden><div class="play">PLAY AGAIN</div><div style="text-align:center;color:var(--muted);margin-top:15px">BACK HOME</div></div>
+</div>
+<p class="note">This static file is an internal visual QA tool. It is not connected to Shopify, and it cannot publish a promotion.</p>
+</section>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+function render(){
+ const placement=$('placement').value;
+ $('homeUI').hidden=placement!=='home';
+ $('resultsUI').hidden=placement!=='results';
+ $('resultsBottom').hidden=placement!=='results';
+ for(const [field,out] of [['headline','pHeadline'],['subtitle','pSubtitle'],['price','pPrice'],['cta','pCta']])$(out).textContent=$(field).value;
+ $('pCode').textContent=$('code').value?'CODE: '+$('code').value+'  ⧉':'';
+ $('ad').hidden=false;
+}
+document.querySelectorAll('input,select').forEach(el=>el.addEventListener('input',render));
+$('dark').onclick=()=>{ $('phone').dataset.theme='dark';$('dark').classList.add('active');$('light').classList.remove('active'); };
+$('light').onclick=()=>{ $('phone').dataset.theme='light';$('light').classList.add('active');$('dark').classList.remove('active'); };
+$('closeAd').onclick=()=>{$('ad').hidden=true};
+$('photo').addEventListener('change',e=>{
+ const file=e.target.files[0];if(!file)return;
+ const reader=new FileReader();reader.onload=()=>{
+ const img=$('previewImage');img.src=reader.result;img.style.display='block';
+ };reader.readAsDataURL(file);
+});
+$('reset').onclick=()=>{location.reload()};
+render();
+</script>
+</body></html>
