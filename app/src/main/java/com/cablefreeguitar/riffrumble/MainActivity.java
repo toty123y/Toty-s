@@ -79,8 +79,8 @@ public class MainActivity extends Activity {
       else {leave();code=c;screen="join";renderSafe();}
     }
   }
-  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);ui.removeCallbacks(questionsTicker);ui.post(questionsTicker);if(promotions!=null)promotions.refresh();if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
-  @Override protected void onPause(){active=false;ui.removeCallbacks(ticker);ui.removeCallbacks(pollTask);ui.removeCallbacks(questionsTicker);super.onPause();}
+  @Override protected void onResume(){super.onResume();active=true;ui.removeCallbacks(ticker);ui.post(ticker);ui.removeCallbacks(questionsTicker);ui.post(questionsTicker);if(promotions!=null)promotions.begin();if(!solo&&!code.isEmpty()&&!playerToken.isEmpty())pollRoom();}
+  @Override protected void onPause(){active=false;ui.removeCallbacks(ticker);ui.removeCallbacks(pollTask);ui.removeCallbacks(questionsTicker);if(promotions!=null)promotions.stop();super.onPause();}
   @Override protected void onDestroy(){generation++;if(promotions!=null)promotions.close();worker.shutdownNow();ui.removeCallbacksAndMessages(null);super.onDestroy();}
   @Override public void onSaveInstanceState(Bundle b){
     super.onSaveInstanceState(b);b.putString("screen",screen);b.putBoolean("solo",solo);b.putInt("rounds",rounds);b.putInt("seconds",seconds);b.putString("category",category);
