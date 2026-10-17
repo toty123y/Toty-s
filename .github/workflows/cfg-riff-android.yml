@@ -3,6 +3,8 @@ on:
   push:
     branches: [cfg-riff-rumble-android-repair]
   workflow_dispatch:
+  pull_request:
+    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -30,6 +32,7 @@ jobs:
           name: CFG-Riff-Rumble-Fixed
           path: CFG-Riff-Rumble-Fixed.apk
       - name: Publish direct APK release
+        if: github.event_name == 'push'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
