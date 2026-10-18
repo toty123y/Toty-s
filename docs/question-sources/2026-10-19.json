@@ -1007,16 +1007,16 @@
     },
     {
       "category": "theory",
-      "prompt": "How many sixteenth notes equal one dotted eighth note?",
+      "prompt": "Which rhythmic grouping is known as tresillo?",
       "options": [
-        "Two",
-        "Four",
-        "Three",
-        "Six"
+        "2 + 2 + 2 + 2",
+        "4 + 4 + 4",
+        "3 + 3 + 2",
+        "3 + 2 + 3 + 2"
       ],
       "correct_index": 2,
-      "explanation": "An eighth plus half its value equals three sixteenth notes.",
-      "source": "https://www.musictheory.net/lessons/"
+      "explanation": "Tresillo divides eight equal subdivisions into 3, 3 and 2.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
@@ -1033,16 +1033,16 @@
     },
     {
       "category": "theory",
-      "prompt": "What is the relative major of F-sharp minor?",
+      "prompt": "In a musical score, what does tacet instruct a performer to do?",
       "options": [
-        "A major",
-        "F-sharp major",
-        "D major",
-        "E major"
+        "Remain silent",
+        "Play twice as fast",
+        "Repeat the previous bar",
+        "Use a mute"
       ],
       "correct_index": 0,
-      "explanation": "F-sharp minor and A major share three sharps.",
-      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+      "explanation": "Tacet indicates that the performer should not play or sing.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "studio",
@@ -1098,15 +1098,15 @@
     },
     {
       "category": "studio",
-      "prompt": "What does a compressor ratio of 1:1 mean?",
+      "prompt": "Why might a compressor use RMS level detection instead of peak detection?",
       "options": [
-        "Infinite limiting",
-        "A 50% reduction",
-        "One millisecond attack",
-        "No compression"
+        "To detect a song's key",
+        "To change bit depth",
+        "To convert stereo to mono",
+        "To respond more closely to perceived loudness"
       ],
       "correct_index": 3,
-      "explanation": "A 1:1 ratio leaves the level relationship unchanged.",
+      "explanation": "RMS detection better approximates perceived loudness than instantaneous peak detection.",
       "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
     },
     {
