@@ -1,0 +1,1308 @@
+{
+  "date": "2026-10-19",
+  "previous": 757,
+  "added": 100,
+  "total": 857,
+  "questions": [
+    {
+      "category": "rock",
+      "prompt": "Which Nine Inch Nails frontman inducted the Cure into the Rock Hall?",
+      "options": [
+        "Billy Corgan",
+        "Dave Grohl",
+        "Thom Yorke",
+        "Trent Reznor"
+      ],
+      "correct_index": 3,
+      "explanation": "Trent Reznor inducted the Cure in 2019.",
+      "source": "https://rockhall.com/inductees/cure/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Cure album includes the single 'Friday I'm in Love'?",
+      "options": [
+        "Pornography",
+        "Disintegration",
+        "Wish",
+        "The Head on the Door"
+      ],
+      "correct_index": 2,
+      "explanation": "'Friday I'm in Love' appears on the Cure's 1992 album Wish.",
+      "source": "https://rockhall.com/inductees/cure/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Cure album includes 'In Between Days'?",
+      "options": [
+        "Faith",
+        "The Head on the Door",
+        "Seventeen Seconds",
+        "Wish"
+      ],
+      "correct_index": 1,
+      "explanation": "'In Between Days' appears on The Head on the Door (1985).",
+      "source": "https://rockhall.com/inductees/cure/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which video director first collaborated with the Cure on 'Let's Go to Bed'?",
+      "options": [
+        "Tim Pope",
+        "Michel Gondry",
+        "David Fincher",
+        "Spike Jonze"
+      ],
+      "correct_index": 0,
+      "explanation": "Tim Pope began working with the Cure on the 1982 'Let's Go to Bed' video.",
+      "source": "https://rockhall.com/inductees/cure/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which early Cure drummer appeared with Robert Smith in the 'Let's Go to Bed' video?",
+      "options": [
+        "Boris Williams",
+        "Jason Cooper",
+        "Alan White",
+        "Lol Tolhurst"
+      ],
+      "correct_index": 3,
+      "explanation": "Lol Tolhurst wore a jumpsuit in the video, when the Cure were a duo.",
+      "source": "https://rockhall.com/inductees/cure/"
+    },
+    {
+      "category": "rock",
+      "prompt": "What was Depeche Mode's 1981 debut studio album called?",
+      "options": [
+        "Black Celebration",
+        "Violator",
+        "Speak & Spell",
+        "Construction Time Again"
+      ],
+      "correct_index": 2,
+      "explanation": "Speak & Spell was released in October 1981.",
+      "source": "https://archives.depechemode.com/discography/albums/01_speakandspell.html"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Depeche Mode album features both 'Personal Jesus' and 'Enjoy the Silence'?",
+      "options": [
+        "Music for the Masses",
+        "Violator",
+        "Black Celebration",
+        "Ultra"
+      ],
+      "correct_index": 1,
+      "explanation": "Both songs appear on 1990's Violator.",
+      "source": "https://archives.depechemode.com/discography/albums/11_violator.html"
+    },
+    {
+      "category": "rock",
+      "prompt": "'Never Let Me Down Again' opens which Depeche Mode studio album?",
+      "options": [
+        "Music for the Masses",
+        "Violator",
+        "Speak & Spell",
+        "Some Great Reward"
+      ],
+      "correct_index": 0,
+      "explanation": "It is the first track on Music for the Masses (1987).",
+      "source": "https://archives.depechemode.com/discography/albums/09_musicforthemasses.html"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which 1986 Depeche Mode album includes 'Stripped'?",
+      "options": [
+        "A Broken Frame",
+        "Songs of Faith and Devotion",
+        "Exciter",
+        "Black Celebration"
+      ],
+      "correct_index": 3,
+      "explanation": "'Stripped' is on Black Celebration (1986).",
+      "source": "https://archives.depechemode.com/discography/albums/08_blackcelebration.html"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who inducted Depeche Mode into the Rock Hall in 2020?",
+      "options": [
+        "Debbie Harry",
+        "Shirley Manson",
+        "Charlize Theron",
+        "Annie Lennox"
+      ],
+      "correct_index": 2,
+      "explanation": "Charlize Theron inducted Depeche Mode in 2020.",
+      "source": "https://rockhall.com/inductees/depeche-mode/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rush musicians inducted Yes into the Rock Hall?",
+      "options": [
+        "Neil Peart and Geddy Lee",
+        "Geddy Lee and Alex Lifeson",
+        "Alex Lifeson and Neil Peart",
+        "Geddy Lee and Steve Howe"
+      ],
+      "correct_index": 1,
+      "explanation": "Rush's Geddy Lee and Alex Lifeson inducted Yes in 2017.",
+      "source": "https://rockhall.com/inductees/yes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who is the Yes bassist named among its Rock Hall inductees?",
+      "options": [
+        "Chris Squire",
+        "John Entwistle",
+        "John Deacon",
+        "Roger Glover"
+      ],
+      "correct_index": 0,
+      "explanation": "Chris Squire was Yes's longtime bassist.",
+      "source": "https://rockhall.com/inductees/yes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which keyboard virtuoso is listed among Yes's Rock Hall inductees?",
+      "options": [
+        "Keith Emerson",
+        "Tony Banks",
+        "Jon Lord",
+        "Rick Wakeman"
+      ],
+      "correct_index": 3,
+      "explanation": "Rick Wakeman is among the Yes members inducted in 2017.",
+      "source": "https://rockhall.com/inductees/yes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Yes guitarist is listed on the band's Rock Hall plaque?",
+      "options": [
+        "Steve Hackett",
+        "Steve Vai",
+        "Steve Howe",
+        "Ritchie Blackmore"
+      ],
+      "correct_index": 2,
+      "explanation": "Steve Howe is among Yes's Rock Hall inductees.",
+      "source": "https://rockhall.com/inductees/yes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which genre best describes the complex rock suites for which Yes is celebrated?",
+      "options": [
+        "Rockabilly",
+        "Progressive rock",
+        "Ska punk",
+        "Grunge"
+      ],
+      "correct_index": 1,
+      "explanation": "The Rock Hall highlights Yes's ambitious, virtuosic progressive-rock suites.",
+      "source": "https://rockhall.com/inductees/yes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "What does the German band name Kraftwerk translate to in English?",
+      "options": [
+        "Power station",
+        "Steel bridge",
+        "Electric road",
+        "Night train"
+      ],
+      "correct_index": 0,
+      "explanation": "Kraftwerk is German for 'power station.'",
+      "source": "https://www.rockhall.com/wp-content/uploads/2024/03/Kraftwerk_26746_RNRHF_2021_Highres-11.pdf"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Kraftwerk album marked the group's pop-oriented breakthrough in 1974?",
+      "options": [
+        "Computer World",
+        "The Man-Machine",
+        "Radio-Activity",
+        "Autobahn"
+      ],
+      "correct_index": 3,
+      "explanation": "Kraftwerk regards Autobahn as the start of its mature career.",
+      "source": "https://www.rockhall.com/wp-content/uploads/2024/03/Kraftwerk_26746_RNRHF_2021_Highres-11.pdf"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Kraftwerk cofounder played flute as well as synthesizers?",
+      "options": [
+        "Karl Bartos",
+        "Wolfgang Flür",
+        "Florian Schneider",
+        "Ralf Hütter"
+      ],
+      "correct_index": 2,
+      "explanation": "Florian Schneider played flute, violin and synthesizers.",
+      "source": "https://www.rockhall.com/wp-content/uploads/2024/03/Kraftwerk_26746_RNRHF_2021_Highres-11.pdf"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Kraftwerk concept album was released in 1977?",
+      "options": [
+        "Computer World",
+        "Trans-Europe Express",
+        "The Man-Machine",
+        "Radio-Activity"
+      ],
+      "correct_index": 1,
+      "explanation": "Trans-Europe Express was released in 1977.",
+      "source": "https://www.rockhall.com/wp-content/uploads/2024/03/Kraftwerk_26746_RNRHF_2021_Highres-11.pdf"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who inducted Kraftwerk into the Rock Hall in 2021?",
+      "options": [
+        "Pharrell Williams",
+        "David Byrne",
+        "Brian Eno",
+        "Giorgio Moroder"
+      ],
+      "correct_index": 0,
+      "explanation": "Pharrell Williams inducted Kraftwerk in 2021.",
+      "source": "https://rockhall.com/inductees/kraftwerk/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Kate Bush album includes 'Running Up That Hill (A Deal with God)'?",
+      "options": [
+        "The Kick Inside",
+        "Never for Ever",
+        "The Sensual World",
+        "Hounds of Love"
+      ],
+      "correct_index": 3,
+      "explanation": "The track appears on Hounds of Love (1985).",
+      "source": "https://rockhall.com/inductees/kate-bush/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Kate Bush song was featured in the 2022 resurgence sparked by Stranger Things?",
+      "options": [
+        "Babooshka",
+        "Wuthering Heights",
+        "Running Up That Hill",
+        "The Man with the Child in His Eyes"
+      ],
+      "correct_index": 2,
+      "explanation": "Stranger Things introduced 'Running Up That Hill' to many new listeners in 2022.",
+      "source": "https://rockhall.com/inductees/kate-bush/"
+    },
+    {
+      "category": "legends",
+      "prompt": "What hands-free microphone technology did Kate Bush pioneer on her 1979 Tour of Life?",
+      "options": [
+        "A throat microphone",
+        "A headset microphone",
+        "A wireless in-ear monitor",
+        "A contact pickup"
+      ],
+      "correct_index": 1,
+      "explanation": "Bush used a custom headset microphone so she could dance and sing freely.",
+      "source": "https://rockhall.com/inductees/kate-bush/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which novel inspired the title of Kate Bush's 1978 breakthrough single?",
+      "options": [
+        "Wuthering Heights",
+        "Jane Eyre",
+        "Rebecca",
+        "Great Expectations"
+      ],
+      "correct_index": 0,
+      "explanation": "Bush's debut hit shares its title with Emily Brontë's novel.",
+      "source": "https://rockhall.com/inductees/kate-bush/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Nina Simone recording from 1964 directly addressed racial injustice?",
+      "options": [
+        "My Baby Just Cares for Me",
+        "Feeling Good",
+        "I Loves You Porgy",
+        "Mississippi Goddam"
+      ],
+      "correct_index": 3,
+      "explanation": "'Mississippi Goddam' appeared on Nina Simone in Concert (1964).",
+      "source": "https://rockhall.com/inductees/nina-simone/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which instrument did classically trained Nina Simone play as a virtuoso?",
+      "options": [
+        "Trumpet",
+        "Cello",
+        "Piano",
+        "Drums"
+      ],
+      "correct_index": 2,
+      "explanation": "Simone was a classically trained pianist as well as a singer.",
+      "source": "https://rockhall.com/inductees/nina-simone/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who inducted Nina Simone into the Rock Hall in 2018?",
+      "options": [
+        "Lauryn Hill",
+        "Mary J. Blige",
+        "Alicia Keys",
+        "Beyoncé"
+      ],
+      "correct_index": 1,
+      "explanation": "Mary J. Blige inducted Nina Simone in 2018.",
+      "source": "https://rockhall.com/inductees/nina-simone/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Gershwin song was an early Nina Simone hit?",
+      "options": [
+        "I Loves You Porgy",
+        "Summertime Blues",
+        "Blue Moon",
+        "Misty"
+      ],
+      "correct_index": 0,
+      "explanation": "Simone recorded 'I Loves You Porgy' on her debut album.",
+      "source": "https://rockhall.com/inductees/nina-simone/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which producer was Missy Elliott's key collaborator on her early solo records?",
+      "options": [
+        "Dr. Dre",
+        "Rick Rubin",
+        "Pharrell Williams",
+        "Timbaland"
+      ],
+      "correct_index": 3,
+      "explanation": "Missy Elliott and Timbaland shaped her futuristic mid-1990s sound.",
+      "source": "https://rockhall.com/inductees/missy-elliott/"
+    },
+    {
+      "category": "legends",
+      "prompt": "What was Missy Elliott's 1997 debut solo album?",
+      "options": [
+        "Under Construction",
+        "The Cookbook",
+        "Supa Dupa Fly",
+        "Da Real World"
+      ],
+      "correct_index": 2,
+      "explanation": "Supa Dupa Fly launched Missy Elliott's solo album career in 1997.",
+      "source": "https://rockhall.com/inductees/missy-elliott/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Missy Elliott album features 'Work It'?",
+      "options": [
+        "Supa Dupa Fly",
+        "Under Construction",
+        "This Is Not a Test!",
+        "The Cookbook"
+      ],
+      "correct_index": 1,
+      "explanation": "'Work It' appears on Under Construction (2002).",
+      "source": "https://rockhall.com/inductees/missy-elliott/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who inducted Missy Elliott into the Rock Hall in 2023?",
+      "options": [
+        "Queen Latifah",
+        "Janet Jackson",
+        "Ciara",
+        "Lizzo"
+      ],
+      "correct_index": 0,
+      "explanation": "Queen Latifah inducted Missy Elliott in 2023.",
+      "source": "https://rockhall.com/inductees/missy-elliott/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who was Carole King's songwriting partner on many 1960s pop hits?",
+      "options": [
+        "Burt Bacharach",
+        "Hal David",
+        "Jimmy Webb",
+        "Gerry Goffin"
+      ],
+      "correct_index": 3,
+      "explanation": "Carole King and Gerry Goffin formed a successful songwriting team.",
+      "source": "https://www.grammy.com/artists/carole-king/3583/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which girl group first took the King-Goffin song 'Will You Love Me Tomorrow' to No. 1?",
+      "options": [
+        "The Supremes",
+        "The Ronettes",
+        "The Shirelles",
+        "The Crystals"
+      ],
+      "correct_index": 2,
+      "explanation": "The Shirelles recorded King and Goffin's breakthrough hit.",
+      "source": "https://www.grammy.com/artists/carole-king/3583/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Carole King album won the 1972 Grammy for Album of the Year?",
+      "options": [
+        "Music",
+        "Tapestry",
+        "Writer",
+        "Fantasy"
+      ],
+      "correct_index": 1,
+      "explanation": "Tapestry won Album of the Year at the 14th Grammy Awards.",
+      "source": "https://www.grammy.com/artists/carole-king/3583/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Carole King composition won the 1972 Grammy for Song of the Year?",
+      "options": [
+        "You've Got a Friend",
+        "It's Too Late",
+        "I Feel the Earth Move",
+        "Jazzman"
+      ],
+      "correct_index": 0,
+      "explanation": "'You've Got a Friend' earned King Song of the Year.",
+      "source": "https://www.grammy.com/artists/carole-king/3583/"
+    },
+    {
+      "category": "legends",
+      "prompt": "How old was Stevie Wonder when he signed with Motown's Tamla label?",
+      "options": [
+        "16",
+        "19",
+        "24",
+        "11"
+      ],
+      "correct_index": 3,
+      "explanation": "Stevie Wonder signed to Tamla at age 11.",
+      "source": "https://www.grammy.com/artists/stevie-wonder/8257/"
+    },
+    {
+      "category": "legends",
+      "prompt": "What was Stevie Wonder's first Billboard Hot 100 hit, scored at age 13?",
+      "options": [
+        "Superstition",
+        "Sir Duke",
+        "Fingertips",
+        "Higher Ground"
+      ],
+      "correct_index": 2,
+      "explanation": "'Fingertips' became a hit when Wonder was 13.",
+      "source": "https://www.grammy.com/artists/stevie-wonder/8257/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Stevie Wonder album won the 1974 Grammy for Album of the Year?",
+      "options": [
+        "Talking Book",
+        "Innervisions",
+        "Songs in the Key of Life",
+        "Hotter than July"
+      ],
+      "correct_index": 1,
+      "explanation": "Innervisions won Album of the Year at the 1974 Grammys.",
+      "source": "https://www.grammy.com/artists/stevie-wonder/8257/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Stevie Wonder's 'Sir Duke' pays tribute to which jazz bandleader?",
+      "options": [
+        "Duke Ellington",
+        "Count Basie",
+        "Glenn Miller",
+        "Benny Goodman"
+      ],
+      "correct_index": 0,
+      "explanation": "'Sir Duke' is Wonder's tribute to Duke Ellington.",
+      "source": "https://qa.grammy.com/news/a-wonderful-history"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many pickups does a traditional Fender Telecaster typically have?",
+      "options": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correct_index": 3,
+      "explanation": "Traditional Telecasters generally use two pickups.",
+      "source": "https://www.fender.com/articles/instruments/stratocaster-or-telecaster-understanding-the-differences"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many pickups does a traditional Fender Stratocaster typically have?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct_index": 2,
+      "explanation": "The original Stratocaster design uses three pickups.",
+      "source": "https://www.fender.com/articles/instruments/stratocaster-or-telecaster-understanding-the-differences"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the traditional scale length shared by most Telecasters and Stratocasters?",
+      "options": [
+        "24 inches",
+        "25.5 inches",
+        "24.75 inches",
+        "27 inches"
+      ],
+      "correct_index": 1,
+      "explanation": "Fender's traditional Telecaster and Stratocaster scale is 25.5 inches.",
+      "source": "https://www.fender.com/articles/instruments/stratocaster-or-telecaster-understanding-the-differences"
+    },
+    {
+      "category": "gear",
+      "prompt": "In a guitar pickup layout labeled H-S-S, which pickup is at the bridge?",
+      "options": [
+        "A humbucker",
+        "A P-90",
+        "A piezo",
+        "A single-coil"
+      ],
+      "correct_index": 0,
+      "explanation": "Pickup configurations are read from bridge to neck, so H is at the bridge.",
+      "source": "https://www.fender.com/articles/instruments/decoding-standard-pickup-arrangements"
+    },
+    {
+      "category": "gear",
+      "prompt": "What does the pickup configuration H-H describe?",
+      "options": [
+        "Two single-coils",
+        "One humbucker and one single-coil",
+        "Three humbuckers",
+        "Two humbuckers"
+      ],
+      "correct_index": 3,
+      "explanation": "Each H represents a humbucking pickup.",
+      "source": "https://www.fender.com/articles/instruments/decoding-standard-pickup-arrangements"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the common long-scale length for an electric bass guitar?",
+      "options": [
+        "24 inches",
+        "30 inches",
+        "34 inches",
+        "36.5 inches"
+      ],
+      "correct_index": 2,
+      "explanation": "A standard long-scale bass typically measures 34 inches.",
+      "source": "https://www.fender.com/articles/instruments/how-to-buy-a-bass-guitar"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the common short-scale length for an electric bass guitar?",
+      "options": [
+        "24 inches",
+        "30 inches",
+        "34 inches",
+        "40 inches"
+      ],
+      "correct_index": 1,
+      "explanation": "Short-scale basses commonly use a 30-inch scale.",
+      "source": "https://www.fender.com/articles/instruments/how-to-buy-a-bass-guitar"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which Fender bass introduced in 1966 used a 30-inch scale?",
+      "options": [
+        "Mustang Bass",
+        "Jazz Bass",
+        "Precision Bass",
+        "Bass VI"
+      ],
+      "correct_index": 0,
+      "explanation": "Fender introduced the short-scale Mustang Bass in 1966.",
+      "source": "https://www.fender.com/articles/instruments/is-a-short-scale-bass-right-for-you"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many strings does the Fender Bass VI have?",
+      "options": [
+        "Four",
+        "Five",
+        "Eight",
+        "Six"
+      ],
+      "correct_index": 3,
+      "explanation": "The Bass VI is a six-string bass instrument.",
+      "source": "https://www.fender.com/articles/instruments/bass-vs-guitar"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which Fender bass appeared first: Precision Bass or Jazz Bass?",
+      "options": [
+        "Jazz Bass",
+        "They debuted together",
+        "Precision Bass",
+        "Neither, the Mustang Bass came first"
+      ],
+      "correct_index": 2,
+      "explanation": "The Precision Bass arrived in 1951, before the Jazz Bass in 1960.",
+      "source": "https://www.fender.com/articles/instruments/how-to-buy-a-bass-guitar"
+    },
+    {
+      "category": "gear",
+      "prompt": "In a guitar string set labeled .010-.046, what does .010 indicate?",
+      "options": [
+        "The guitar has ten strings",
+        "The thinnest string is 0.010 inch in diameter",
+        "The string tension is 10 pounds",
+        "The scale length is 10 inches"
+      ],
+      "correct_index": 1,
+      "explanation": "String gauges are measured in thousandths of an inch.",
+      "source": "https://www.fender.com/articles/instruments/fender-electric-guitar-string-guide"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which bass string winding typically feels smoother and sounds mellower?",
+      "options": [
+        "Flatwound",
+        "Roundwound",
+        "Hexwound",
+        "Unwound"
+      ],
+      "correct_index": 0,
+      "explanation": "Flatwound strings use a flat outer wrap and have a warm, smooth feel.",
+      "source": "https://www.fender.com/articles/instruments/bass-strings-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which bass string type is especially known for bright attack and finger noise?",
+      "options": [
+        "Flatwound",
+        "Tapewound",
+        "Silk-core",
+        "Roundwound"
+      ],
+      "correct_index": 3,
+      "explanation": "Roundwound strings have a ridged surface and a bright tone.",
+      "source": "https://www.fender.com/articles/instruments/bass-strings-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "What material commonly forms the outer wrap of tapewound bass strings?",
+      "options": [
+        "Glass",
+        "Copper foil",
+        "Nylon",
+        "Cotton"
+      ],
+      "correct_index": 2,
+      "explanation": "Tapewound bass strings have nylon around their metal windings.",
+      "source": "https://www.fender.com/articles/instruments/bass-strings-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "What happens to the outside surface of a groundwound bass string?",
+      "options": [
+        "It is coated with glass",
+        "It is partially flattened",
+        "It is removed completely",
+        "It is magnetized"
+      ],
+      "correct_index": 1,
+      "explanation": "Groundwounds begin as roundwounds and are ground or pressed flatter.",
+      "source": "https://www.fender.com/articles/instruments/bass-strings-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "If a guitar's fretted 12th-fret note is sharp versus its harmonic, which way should the saddle move?",
+      "options": [
+        "Farther from the nut",
+        "Closer to the nut",
+        "Sideways toward the next string",
+        "Straight down without changing length"
+      ],
+      "correct_index": 0,
+      "explanation": "Lengthening the string helps correct a sharp fretted 12th-fret note.",
+      "source": "https://www.fender.com/articles/maintenance/intonation-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "To estimate a guitar's scale length from its frets, what do you double?",
+      "options": [
+        "The bridge-to-20th-fret distance",
+        "The fretboard width",
+        "The distance between frets 1 and 2",
+        "The nut-to-12th-fret distance"
+      ],
+      "correct_index": 3,
+      "explanation": "The 12th fret is approximately halfway along the speaking string length.",
+      "source": "https://www.fender.com/articles/maintenance/intonation-101"
+    },
+    {
+      "category": "gear",
+      "prompt": "On Fender's Stratocaster setup guide, action is measured above which fret?",
+      "options": [
+        "1st fret",
+        "5th fret",
+        "17th fret",
+        "24th fret"
+      ],
+      "correct_index": 2,
+      "explanation": "Fender's guide specifies string height measurements at the 17th fret.",
+      "source": "https://support.fender.com/hc/en-gb/articles/42584764005019-How-do-I-set-up-my-Stratocaster-guitar-properly"
+    },
+    {
+      "category": "gear",
+      "prompt": "What can excessive magnetic pull from pickups set too close to strings cause?",
+      "options": [
+        "A wider fretboard",
+        "Unwanted pitch and vibration problems",
+        "Longer scale length",
+        "Automatic tuning"
+      ],
+      "correct_index": 1,
+      "explanation": "Overly high pickups can disturb the strings' vibration.",
+      "source": "https://support.fender.com/hc/en-gb/articles/42584764005019-How-do-I-set-up-my-Stratocaster-guitar-properly"
+    },
+    {
+      "category": "gear",
+      "prompt": "Why lubricate guitar string contact points during a tremolo setup?",
+      "options": [
+        "To improve tuning stability and reduce breakage",
+        "To increase pickup output",
+        "To change the scale length",
+        "To raise the frets"
+      ],
+      "correct_index": 0,
+      "explanation": "Reducing friction at contact points helps tuning stability.",
+      "source": "https://support.fender.com/hc/en-gb/articles/42584764005019-How-do-I-set-up-my-Stratocaster-guitar-properly"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the relative minor of E-flat major?",
+      "options": [
+        "E-flat minor",
+        "G minor",
+        "F minor",
+        "C minor"
+      ],
+      "correct_index": 3,
+      "explanation": "C minor and E-flat major share a three-flat key signature.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the parallel minor of A major?",
+      "options": [
+        "F-sharp minor",
+        "C minor",
+        "A minor",
+        "E minor"
+      ],
+      "correct_index": 2,
+      "explanation": "Parallel major and minor keys share the same tonic.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which degree is raised in a harmonic minor scale compared with natural minor?",
+      "options": [
+        "The second",
+        "The seventh",
+        "The fourth",
+        "The sixth"
+      ],
+      "correct_index": 1,
+      "explanation": "Harmonic minor raises scale degree seven.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which two scale degrees are raised in ascending classical melodic minor?",
+      "options": [
+        "Sixth and seventh",
+        "Third and fourth",
+        "Second and fifth",
+        "Fourth and sixth"
+      ],
+      "correct_index": 0,
+      "explanation": "Ascending melodic minor raises the natural minor sixth and seventh.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What form does classical melodic minor commonly use when descending?",
+      "options": [
+        "Major scale",
+        "Whole-tone scale",
+        "Harmonic major",
+        "Natural minor"
+      ],
+      "correct_index": 3,
+      "explanation": "In classical usage the descending melodic minor follows natural minor.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In A harmonic minor, which note replaces the G natural of A natural minor?",
+      "options": [
+        "G-flat",
+        "F-sharp",
+        "G-sharp",
+        "A-flat"
+      ],
+      "correct_index": 2,
+      "explanation": "A harmonic minor raises the seventh scale degree to G-sharp.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What interval separates the sixth and raised seventh degrees of harmonic minor?",
+      "options": [
+        "A minor second",
+        "An augmented second",
+        "A perfect fourth",
+        "A major third"
+      ],
+      "correct_index": 1,
+      "explanation": "Harmonic minor contains a three-semitone gap between degrees six and seven.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note is the sixth degree of D natural minor?",
+      "options": [
+        "B-flat",
+        "B natural",
+        "C-sharp",
+        "G-sharp"
+      ],
+      "correct_index": 0,
+      "explanation": "D natural minor is D E F G A B-flat C.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many sharps are in B major's key signature?",
+      "options": [
+        "Two",
+        "Three",
+        "Six",
+        "Five"
+      ],
+      "correct_index": 3,
+      "explanation": "B major has F-sharp, C-sharp, G-sharp, D-sharp and A-sharp.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many flats are in A-flat major's key signature?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct_index": 2,
+      "explanation": "A-flat major has B-flat, E-flat, A-flat and D-flat.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which key has three sharps in its key signature?",
+      "options": [
+        "D major",
+        "A major",
+        "E major",
+        "B major"
+      ],
+      "correct_index": 1,
+      "explanation": "A major's key signature has F-sharp, C-sharp and G-sharp.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note is the leading tone in D major?",
+      "options": [
+        "C-sharp",
+        "C natural",
+        "B",
+        "E-flat"
+      ],
+      "correct_index": 0,
+      "explanation": "The seventh scale degree of D major is C-sharp.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the interval inversion of a major sixth?",
+      "options": [
+        "A major third",
+        "A perfect fourth",
+        "A minor sixth",
+        "A minor third"
+      ],
+      "correct_index": 3,
+      "explanation": "Inverted interval numbers sum to nine, and major becomes minor.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the interval inversion of a perfect fourth?",
+      "options": [
+        "A major fifth",
+        "A diminished fourth",
+        "A perfect fifth",
+        "A minor sixth"
+      ],
+      "correct_index": 2,
+      "explanation": "Perfect fourths invert to perfect fifths.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which notes spell a C half-diminished seventh chord (Cm7b5)?",
+      "options": [
+        "C, E, G, B-flat",
+        "C, E-flat, G-flat, B-flat",
+        "C, E-flat, G, B",
+        "C, E-flat, G-flat, B double-flat"
+      ],
+      "correct_index": 1,
+      "explanation": "A half-diminished seventh has 1, flat 3, flat 5 and flat 7.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What interval pattern forms a fully diminished seventh chord?",
+      "options": [
+        "Three stacked minor thirds",
+        "Three stacked major thirds",
+        "Two perfect fifths",
+        "A major triad plus a major seventh"
+      ],
+      "correct_index": 0,
+      "explanation": "Fully diminished sevenths consist of successive minor thirds.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In 12/8 compound meter, how many dotted-quarter beats are commonly felt per bar?",
+      "options": [
+        "Two",
+        "Three",
+        "Six",
+        "Four"
+      ],
+      "correct_index": 3,
+      "explanation": "Twelve eighth notes group into four dotted-quarter beats.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many sixteenth notes equal one dotted eighth note?",
+      "options": [
+        "Two",
+        "Four",
+        "Three",
+        "Six"
+      ],
+      "correct_index": 2,
+      "explanation": "An eighth plus half its value equals three sixteenth notes.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In 3/2 time, how many half-note beats fill a bar?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "correct_index": 1,
+      "explanation": "The top number gives three beats and the bottom number specifies half notes.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the relative major of F-sharp minor?",
+      "options": [
+        "A major",
+        "F-sharp major",
+        "D major",
+        "E major"
+      ],
+      "correct_index": 0,
+      "explanation": "F-sharp minor and A major share three sharps.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is a main advantage of placing reverb on a shared return track?",
+      "options": [
+        "It doubles the session sample rate",
+        "It disables all sends",
+        "It records MIDI as audio",
+        "Several tracks can feed the same reverb"
+      ],
+      "correct_index": 3,
+      "explanation": "A return track can process audio sent from multiple tracks.",
+      "source": "https://www.ableton.com/en/manual/mixing/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a pre-fader send let you create independently of a track's main fader?",
+      "options": [
+        "A higher sample rate",
+        "An extra MIDI channel",
+        "An auxiliary monitor mix",
+        "A new time signature"
+      ],
+      "correct_index": 2,
+      "explanation": "Pre-fader routing taps audio before the main mixer stage.",
+      "source": "https://www.ableton.com/en/manual/mixing/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What usually happens to a post-fader send when the source fader is lowered?",
+      "options": [
+        "The send level always doubles",
+        "The send level follows the fader down",
+        "The send changes pitch",
+        "The send becomes mono"
+      ],
+      "correct_index": 1,
+      "explanation": "Post-fader sends are taken after the track's volume stage.",
+      "source": "https://www.ableton.com/en/manual/mixing/"
+    },
+    {
+      "category": "studio",
+      "prompt": "Where should an effect be inserted to process an entire Ableton Live mix?",
+      "options": [
+        "The Main track",
+        "A MIDI note lane",
+        "The browser preview",
+        "A clip's warp markers"
+      ],
+      "correct_index": 0,
+      "explanation": "Effects on the Main track process the combined output.",
+      "source": "https://www.ableton.com/en/manual/mixing/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a compressor ratio of 1:1 mean?",
+      "options": [
+        "Infinite limiting",
+        "A 50% reduction",
+        "One millisecond attack",
+        "No compression"
+      ],
+      "correct_index": 3,
+      "explanation": "A 1:1 ratio leaves the level relationship unchanged.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a soft knee change in compressor behavior?",
+      "options": [
+        "It swaps left and right channels",
+        "It lowers sample rate",
+        "Compression starts more gradually near threshold",
+        "It disables makeup gain"
+      ],
+      "correct_index": 2,
+      "explanation": "Soft knee makes the transition into compression more gradual.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a compressor's gain-reduction meter show?",
+      "options": [
+        "The file's sample rate",
+        "How much level the compressor is reducing",
+        "The track's musical key",
+        "The stereo width"
+      ],
+      "correct_index": 1,
+      "explanation": "Gain reduction measures the current attenuation caused by compression.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "For voiceover ducking, which track should receive the compressor?",
+      "options": [
+        "The background music track",
+        "The narration track only",
+        "The master MIDI clock",
+        "The microphone's power supply"
+      ],
+      "correct_index": 0,
+      "explanation": "The narration can trigger compression on the music via sidechain.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "Does an external sidechain trigger have to be audible in the final mix?",
+      "options": [
+        "Yes, it must be the loudest track",
+        "Yes, it must be hard-panned",
+        "Only if it is MIDI",
+        "No, it can act only as a control signal"
+      ],
+      "correct_index": 3,
+      "explanation": "A sidechain signal can control processing without being heard.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why put an EQ filter in a compressor's sidechain detector?",
+      "options": [
+        "To change the song's time signature",
+        "To convert stereo to surround",
+        "To make compression respond to selected frequencies",
+        "To increase the bit depth"
+      ],
+      "correct_index": 2,
+      "explanation": "Sidechain EQ limits which frequencies drive the detector.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a gate's hysteresis or Return setting help prevent?",
+      "options": [
+        "Pitch bends on guitars",
+        "Rapid opening and closing near the threshold",
+        "USB clock drift",
+        "Speaker impedance changes"
+      ],
+      "correct_index": 1,
+      "explanation": "Hysteresis reduces gate chatter near its threshold.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a noise gate's Hold parameter determine?",
+      "options": [
+        "How long it waits before starting to close",
+        "How many tracks can be armed",
+        "The microphone's polar pattern",
+        "The length of the audio cable"
+      ],
+      "correct_index": 0,
+      "explanation": "Hold keeps the gate open briefly after the signal drops.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "At a gate Floor setting of negative infinity dB, what happens while the gate is closed?",
+      "options": [
+        "The signal is doubled",
+        "The signal is pitch-shifted",
+        "The signal becomes stereo",
+        "The signal is muted"
+      ],
+      "correct_index": 3,
+      "explanation": "A floor of -infinity dB fully attenuates the closed-gate signal.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What can external sidechain gating make a sustained synth pad follow?",
+      "options": [
+        "The room temperature",
+        "The guitar's fret count",
+        "A drum loop's rhythm",
+        "The speaker's nominal impedance"
+      ],
+      "correct_index": 2,
+      "explanation": "A drum signal can trigger a gate to rhythmically chop a pad.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "Ableton's Glue Compressor is especially intended for what?",
+      "options": [
+        "Changing MIDI note names",
+        "Group or main-bus compression",
+        "Generating guitar tablature",
+        "Tuning an acoustic piano"
+      ],
+      "correct_index": 1,
+      "explanation": "Glue Compressor is designed to help multiple sources feel cohesive.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is a common trade-off of enabling oversampling in an audio effect?",
+      "options": [
+        "More CPU use in exchange for reduced aliasing",
+        "Lower CPU use but no output",
+        "Higher tuning pitch",
+        "Fewer available tracks by design"
+      ],
+      "correct_index": 0,
+      "explanation": "Oversampling processes at a higher internal sample rate and can cost CPU.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does a true-peak limiter aim to prevent beyond sample-peak clipping?",
+      "options": [
+        "MIDI velocity variation",
+        "A stereo recording",
+        "Room reflections",
+        "Inter-sample peaks"
+      ],
+      "correct_index": 3,
+      "explanation": "True-peak limiting accounts for peaks between stored digital samples.",
+      "source": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is the strongest rejection direction of a standard cardioid microphone?",
+      "options": [
+        "Directly in front",
+        "Equally from every direction",
+        "Directly behind the microphone",
+        "Only 90 degrees to the right"
+      ],
+      "correct_index": 2,
+      "explanation": "A cardioid pattern is most sensitive at the front and rejects sound from the rear.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "In a condenser microphone capsule, what forms the sound-sensitive capacitor?",
+      "options": [
+        "Two guitar strings",
+        "A diaphragm and backplate",
+        "A speaker cone and magnet",
+        "An XLR plug and cable shield"
+      ],
+      "correct_index": 1,
+      "explanation": "Condenser capsules use a moving diaphragm facing a charged backplate.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "According to Shure's SM57 guide, what is the microphone's stated frequency response?",
+      "options": [
+        "40 Hz to 15 kHz",
+        "20 Hz to 20 kHz",
+        "100 Hz to 5 kHz",
+        "1 kHz to 48 kHz"
+      ],
+      "correct_index": 0,
+      "explanation": "Shure specifies a 40-15,000 Hz response for the SM57.",
+      "source": "https://www.shure.com/en-US/docs/guide/SM57"
+    }
+  ]
+}
