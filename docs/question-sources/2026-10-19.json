@@ -539,15 +539,15 @@
     },
     {
       "category": "gear",
-      "prompt": "How many pickups does a traditional Fender Stratocaster typically have?",
+      "prompt": "What ergonomic body feature helped distinguish the Stratocaster from the early Telecaster?",
       "options": [
-        "One",
-        "Two",
-        "Three",
-        "Four"
+        "A hollow acoustic chamber",
+        "A built-in capo",
+        "Contoured body edges",
+        "A double-neck design"
       ],
       "correct_index": 2,
-      "explanation": "The original Stratocaster design uses three pickups.",
+      "explanation": "The Stratocaster introduced a contoured body for greater playing comfort.",
       "source": "https://www.fender.com/articles/instruments/stratocaster-or-telecaster-understanding-the-differences"
     },
     {
