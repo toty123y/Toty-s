@@ -48,7 +48,7 @@ public class MainActivity extends Activity {
       ByteArrayOutputStream out=new ByteArrayOutputStream();
       byte[] buf=new byte[8192]; int n; while((n=stream.read(buf))!=-1)out.write(buf,0,n);
       questions=new JSONArray(out.toString("UTF-8"));
-      if(questions.length()!=657)throw new IOException("Missing questions");
+      if(questions.length()<657 || questions.length()>10000)throw new IOException("Invalid built-in question bank");
     } catch(Exception e) { fail("Unable to load built-in questions",e);return; }
     loadSavedQuestions();
     if(state!=null) {
