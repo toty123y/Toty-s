@@ -604,15 +604,15 @@
     },
     {
       "category": "gear",
-      "prompt": "What is the common short-scale length for an electric bass guitar?",
+      "prompt": "Why does a short-scale bass require less hand stretch between frets?",
       "options": [
-        "24 inches",
-        "30 inches",
-        "34 inches",
-        "40 inches"
+        "More pickups by default",
+        "Shorter spacing between frets",
+        "An automatic tuner",
+        "A wider nut on every model"
       ],
       "correct_index": 1,
-      "explanation": "Short-scale basses commonly use a 30-inch scale.",
+      "explanation": "A shorter scale puts adjacent frets closer together.",
       "source": "https://www.fender.com/articles/instruments/how-to-buy-a-bass-guitar"
     },
     {
