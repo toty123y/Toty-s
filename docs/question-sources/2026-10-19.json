@@ -916,29 +916,29 @@
     },
     {
       "category": "theory",
-      "prompt": "Which key has three sharps in its key signature?",
+      "prompt": "In scale-degree terminology, which degree is called the mediant?",
       "options": [
-        "D major",
-        "A major",
-        "E major",
-        "B major"
+        "The second",
+        "The third",
+        "The fifth",
+        "The seventh"
       ],
       "correct_index": 1,
-      "explanation": "A major's key signature has F-sharp, C-sharp and G-sharp.",
-      "source": "https://www.musictheory.net/lessons/"
+      "explanation": "Mediant is the name of the third scale degree.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
-      "prompt": "Which note is the leading tone in D major?",
+      "prompt": "What is a pedal tone in harmonic writing?",
       "options": [
-        "C-sharp",
-        "C natural",
-        "B",
-        "E-flat"
+        "A sustained or repeated note beneath changing harmonies",
+        "A chord played only once",
+        "A rapidly changing melody in the soprano",
+        "A rest on the final beat"
       ],
       "correct_index": 0,
-      "explanation": "The seventh scale degree of D major is C-sharp.",
-      "source": "https://www.musictheory.net/lessons/"
+      "explanation": "Pedal tones keep a pitch sounding while chords change above it.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
