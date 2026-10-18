@@ -1,1 +1,1 @@
-Daily question bank staged: 100 validated questions; publishing pending.
+Published: 100 validated new questions, total 857, via the branch-backed remote Solo question feed.
