@@ -786,16 +786,16 @@
     },
     {
       "category": "theory",
-      "prompt": "What is the relative minor of E-flat major?",
+      "prompt": "In minor-key theory, what does the term subtonic name?",
       "options": [
-        "E-flat minor",
-        "G minor",
-        "F minor",
-        "C minor"
+        "The tonic an octave lower",
+        "The second scale degree",
+        "The raised sixth scale degree",
+        "The unraised seventh scale degree"
       ],
       "correct_index": 3,
-      "explanation": "C minor and E-flat major share a three-flat key signature.",
-      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+      "explanation": "The subtonic is the unraised seventh degree in minor keys.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
@@ -812,16 +812,16 @@
     },
     {
       "category": "theory",
-      "prompt": "Which degree is raised in a harmonic minor scale compared with natural minor?",
+      "prompt": "In tonal harmony, what function typically follows a predominant chord?",
       "options": [
-        "The second",
-        "The seventh",
-        "The fourth",
-        "The sixth"
+        "Tonic pedal only",
+        "Dominant function",
+        "A key signature change",
+        "No harmonic function"
       ],
       "correct_index": 1,
-      "explanation": "Harmonic minor raises scale degree seven.",
-      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+      "explanation": "Predominant chords move away from tonic toward dominant harmony.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
@@ -864,16 +864,16 @@
     },
     {
       "category": "theory",
-      "prompt": "What interval separates the sixth and raised seventh degrees of harmonic minor?",
+      "prompt": "Which two Roman-numeral chords form a plagal cadence?",
       "options": [
-        "A minor second",
-        "An augmented second",
-        "A perfect fourth",
-        "A major third"
+        "V to vi",
+        "IV to I",
+        "ii to V",
+        "I to iii"
       ],
       "correct_index": 1,
-      "explanation": "Harmonic minor contains a three-semitone gap between degrees six and seven.",
-      "source": "https://viva.pressbooks.pub/openmusictheory/chapter/minor-scales/"
+      "explanation": "A plagal cadence moves from subdominant IV to tonic I.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
@@ -890,29 +890,29 @@
     },
     {
       "category": "theory",
-      "prompt": "How many sharps are in B major's key signature?",
+      "prompt": "What does a secondary dominant temporarily make another chord sound like?",
       "options": [
-        "Two",
-        "Three",
-        "Six",
-        "Five"
+        "An unpitched rhythm",
+        "A sustained pedal tone",
+        "An octave doubling",
+        "A temporary tonic"
       ],
       "correct_index": 3,
-      "explanation": "B major has F-sharp, C-sharp, G-sharp, D-sharp and A-sharp.",
-      "source": "https://www.musictheory.net/lessons/"
+      "explanation": "Secondary dominants tonicize chords other than the main tonic.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
-      "prompt": "How many flats are in A-flat major's key signature?",
+      "prompt": "What is the name of a cadence that ends a phrase on the dominant chord?",
       "options": [
-        "Two",
-        "Three",
-        "Four",
-        "Five"
+        "Plagal cadence",
+        "Perfect authentic cadence",
+        "Half cadence",
+        "Deceptive cadence"
       ],
       "correct_index": 2,
-      "explanation": "A-flat major has B-flat, E-flat, A-flat and D-flat.",
-      "source": "https://www.musictheory.net/lessons/"
+      "explanation": "A half cadence leaves a phrase unresolved on V.",
+      "source": "https://viva.pressbooks.pub/openmusictheory/back-matter/glossary/"
     },
     {
       "category": "theory",
