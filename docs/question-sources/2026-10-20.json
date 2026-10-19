@@ -201,15 +201,15 @@
     },
     {
       "category": "rock",
-      "prompt": "In what year were Eurythmics inducted into the Rock Hall?",
+      "prompt": "Which style did the Rock Hall cite among Eurythmics' musical influences?",
       "options": [
-        "2025",
-        "2022",
-        "2012",
-        "2018"
+        "Bebop",
+        "Krautrock",
+        "Bluegrass",
+        "Ska punk"
       ],
       "correct_index": 1,
-      "explanation": "Eurythmics entered the Rock Hall's performer category in 2022.",
+      "explanation": "The Hall notes Eurythmics drew on Krautrock's mechanistic funk.",
       "source": "https://rockhall.com/inductees/eurythmics/"
     },
     {
@@ -370,15 +370,15 @@
     },
     {
       "category": "legends",
-      "prompt": "In what year did Sheryl Crow release her self-titled second album?",
+      "prompt": "What creative responsibility did Sheryl Crow take on for her 1996 self-titled album?",
       "options": [
-        "1990",
-        "2003",
-        "1984",
-        "1996"
+        "Production",
+        "Concert lighting",
+        "Orchestra conducting",
+        "Album cover photography"
       ],
-      "correct_index": 3,
-      "explanation": "Sheryl Crow's self-titled follow-up was released in 1996.",
+      "correct_index": 0,
+      "explanation": "The Rock Hall says Crow took the production reins for her 1996 follow-up.",
       "source": "https://rockhall.com/inductees/sheryl-crow/"
     },
     {
@@ -461,16 +461,16 @@
     },
     {
       "category": "legends",
-      "prompt": "In which year was Neil Young inducted into the Rock Hall as a solo performer?",
+      "prompt": "Which Eagles member inducted songwriter Randy Newman into the Rock Hall?",
       "options": [
-        "1988",
-        "2006",
-        "2017",
-        "1995"
+        "Randy Meisner",
+        "Don Henley",
+        "Joe Walsh",
+        "Glenn Frey"
       ],
-      "correct_index": 3,
-      "explanation": "Neil Young entered the Rock Hall as a performer in 1995.",
-      "source": "https://rockhall.com/inductees/neil-young/"
+      "correct_index": 1,
+      "explanation": "Don Henley inducted Randy Newman in 2013.",
+      "source": "https://rockhall.com/inductees/randy-newman/"
     },
     {
       "category": "legends",
@@ -864,15 +864,15 @@
     },
     {
       "category": "studio",
-      "prompt": "At approximately what angle is a hypercardioid microphone least sensitive?",
+      "prompt": "Why can a hypercardioid mic pick up a monitor directly behind it?",
       "options": [
-        "0 degrees on-axis",
-        "60 degrees off-axis",
-        "110 degrees off-axis",
-        "180 degrees off-axis"
+        "It converts all sound to stereo",
+        "Its cable amplifies the monitor",
+        "Its rear pickup lobe is more sensitive than a cardioid's",
+        "It has no diaphragm"
       ],
       "correct_index": 2,
-      "explanation": "Shure places the hypercardioid rejection null near 110 degrees.",
+      "explanation": "Hypercardioid patterns have a rear pickup lobe, so wedges need careful placement.",
       "source": "https://www.shure.com/en-US/insights/specialist-polar-patterns-hypercardioid-and-subcardioid"
     },
     {
@@ -1046,223 +1046,223 @@
     },
     {
       "category": "theory",
-      "prompt": "How many sharps are in the key signature of B major?",
+      "prompt": "What is the third flat in the standard order of key-signature flats?",
       "options": [
-        "7",
-        "5",
-        "2",
-        "3"
+        "A-flat",
+        "B-flat",
+        "D-flat",
+        "G-flat"
       ],
-      "correct_index": 1,
-      "explanation": "B major uses F-sharp, C-sharp, G-sharp, D-sharp and A-sharp.",
+      "correct_index": 0,
+      "explanation": "Flats appear in the order B, E, A, D, G, C, F.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "How many flats are in the key signature of A-flat major?",
+      "prompt": "Which major key shares its key signature with G-sharp minor?",
       "options": [
-        "1",
-        "2",
-        "6",
-        "4"
-      ],
-      "correct_index": 3,
-      "explanation": "A-flat major has B-flat, E-flat, A-flat and D-flat.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "How many sharps are in F-sharp major?",
-      "options": [
-        "3",
-        "4",
-        "5",
-        "6"
+        "A major",
+        "E major",
+        "D major",
+        "B major"
       ],
       "correct_index": 3,
-      "explanation": "F-sharp major has six sharps in its key signature.",
+      "explanation": "G-sharp minor and B major are relative keys with five sharps.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "What is the relative minor key of E-flat major?",
+      "prompt": "Which major key is enharmonically equivalent to C-sharp major?",
+      "options": [
+        "C major",
+        "E-flat major",
+        "D-flat major",
+        "D major"
+      ],
+      "correct_index": 2,
+      "explanation": "C-sharp and D-flat are the same tonic pitch in equal temperament.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the parallel major key of E-flat minor?",
       "options": [
         "C minor",
-        "E-flat minor",
-        "G minor",
-        "F minor"
-      ],
-      "correct_index": 0,
-      "explanation": "E-flat major and C minor share a three-flat key signature.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which notes spell an F major-seventh chord?",
-      "options": [
-        "F, B, C, E",
-        "F, A, C-sharp, E",
-        "F, A, C, E",
-        "F, A-flat, C, E-flat"
-      ],
-      "correct_index": 2,
-      "explanation": "Fmaj7 adds the major seventh E to the F-A-C major triad.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which notes spell a D minor-seventh chord?",
-      "options": [
-        "D, F, A, C-sharp",
-        "D, F, A-flat, C",
-        "D, F, A, C",
-        "D, F-sharp, A, C"
-      ],
-      "correct_index": 2,
-      "explanation": "Dm7 combines D-F-A with a minor seventh, C.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which notes spell a G dominant-seventh chord?",
-      "options": [
-        "G, B, D, F",
-        "G, B, D, F-sharp",
-        "G, B-flat, D, F",
-        "G, C, D, F"
-      ],
-      "correct_index": 0,
-      "explanation": "G7 has a major triad and a minor seventh.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which notes make up an E suspended-second chord (Esus2)?",
-      "options": [
-        "E, F-sharp, B",
-        "E, G-sharp, B",
-        "E, A, B",
-        "E, F, A"
-      ],
-      "correct_index": 0,
-      "explanation": "Esus2 replaces E major's third with the second, F-sharp.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which note is in the bass of a second-inversion F major triad?",
-      "options": [
-        "F",
-        "A",
-        "E",
-        "C"
-      ],
-      "correct_index": 3,
-      "explanation": "Second inversion puts the fifth of F-A-C, the note C, in the bass.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "Which note is in the bass of a first-inversion D minor triad?",
-      "options": [
-        "C",
-        "F",
-        "D",
-        "A"
+        "E-flat major",
+        "G-flat major",
+        "B major"
       ],
       "correct_index": 1,
-      "explanation": "First inversion places the third of D-F-A, F, in the bass.",
+      "explanation": "Parallel major and minor keys share the same tonic.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "What interval spans C up to A within the same octave?",
+      "prompt": "In a chord symbol, what does 'add9' usually mean?",
       "options": [
-        "Minor seventh",
-        "Major third",
-        "Major sixth",
-        "Perfect fifth"
-      ],
-      "correct_index": 2,
-      "explanation": "C to A spans six letter names and nine semitones, a major sixth.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "What interval is B up to the next C?",
-      "options": [
-        "Minor third",
-        "Perfect fourth",
-        "Minor second",
-        "Major second"
-      ],
-      "correct_index": 2,
-      "explanation": "B to C is one semitone, a minor second.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "What interval is the inversion of a minor seventh?",
-      "options": [
-        "Minor second",
-        "Major third",
-        "Perfect fourth",
-        "Major second"
-      ],
-      "correct_index": 3,
-      "explanation": "Inverting a minor seventh yields a major second.",
-      "source": "https://www.musictheory.net/lessons/"
-    },
-    {
-      "category": "theory",
-      "prompt": "What interval is the inversion of a diminished fifth?",
-      "options": [
-        "Augmented fourth",
-        "Perfect fourth",
-        "Major sixth",
-        "Minor third"
+        "Add the ninth without requiring a seventh",
+        "Raise the ninth by a semitone",
+        "Play nine separate notes",
+        "Remove the chord's root"
       ],
       "correct_index": 0,
-      "explanation": "A diminished fifth inverts to an augmented fourth.",
+      "explanation": "An add9 chord adds the ninth but does not imply a seventh.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "How many sixteenth notes equal one dotted eighth note?",
+      "prompt": "What does the slash chord symbol C/E specify?",
       "options": [
+        "An E major chord with C in the bass",
+        "A C minor chord",
+        "Two chords played simultaneously",
+        "A C major chord with E in the bass"
+      ],
+      "correct_index": 3,
+      "explanation": "In C/E, the letter after the slash identifies the bass note.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which seventh-chord quality does the symbol ø7 indicate?",
+      "options": [
+        "Dominant seventh",
+        "Fully augmented seventh",
+        "Half-diminished seventh",
+        "Major seventh"
+      ],
+      "correct_index": 2,
+      "explanation": "The slashed circle denotes a half-diminished seventh chord.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How do you turn a G major triad into G minor?",
+      "options": [
+        "Lower D to D-flat",
+        "Lower B to B-flat",
+        "Raise D to D-sharp",
+        "Raise G to G-sharp"
+      ],
+      "correct_index": 1,
+      "explanation": "Changing the major third B to minor third B-flat makes G minor.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which Roman numeral commonly represents the submediant triad in a major key?",
+      "options": [
+        "vi",
+        "IV",
+        "V",
+        "ii"
+      ],
+      "correct_index": 0,
+      "explanation": "The submediant is scale degree six; its diatonic triad is minor.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In four-part harmony, what does doubling a chord's root mean?",
+      "options": [
+        "The chord root rises by an octave only",
+        "The chord is repeated twice",
+        "The bass note is deleted",
+        "Two voices play the root in different registers"
+      ],
+      "correct_index": 3,
+      "explanation": "Doubling means assigning the same chord tone to more than one voice.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many semitones make up a major sixth?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "7"
+      ],
+      "correct_index": 2,
+      "explanation": "A major sixth spans nine semitones in equal temperament.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many semitones separate B natural and C natural?",
+      "options": [
+        "0",
+        "1",
         "2",
-        "4",
-        "6",
         "3"
       ],
-      "correct_index": 3,
-      "explanation": "An eighth equals two sixteenths; its dot adds one more sixteenth.",
+      "correct_index": 1,
+      "explanation": "B and C natural are adjacent pitches a half step apart.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "How many eighth notes fill one complete measure of 7/8?",
+      "prompt": "Which interval is enharmonically equivalent to an augmented fourth?",
       "options": [
-        "7",
-        "4",
-        "8",
-        "14"
+        "Diminished fifth",
+        "Perfect fifth",
+        "Major third",
+        "Minor sixth"
       ],
       "correct_index": 0,
-      "explanation": "The numerator 7 counts seven eighth-note units per bar.",
+      "explanation": "An augmented fourth and diminished fifth both span six semitones.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "How many sixteenth notes equal three dotted eighth notes?",
+      "prompt": "In 12-tone equal temperament, how many cents are in one semitone?",
       "options": [
         "12",
-        "3",
-        "9",
-        "6"
+        "50",
+        "120",
+        "100"
+      ],
+      "correct_index": 3,
+      "explanation": "An octave is 1,200 cents, divided into twelve 100-cent semitones.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How much additional duration does a double dot add to a note?",
+      "options": [
+        "Twice its original value",
+        "No extra duration",
+        "Three-quarters of its original value",
+        "One-quarter of its original value"
       ],
       "correct_index": 2,
-      "explanation": "Each dotted eighth lasts three sixteenths, so three last nine.",
+      "explanation": "The first dot adds one-half; the second adds one-quarter.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which eighth-note grouping creates a 2+2+3 pattern in 7/8?",
+      "options": [
+        "Seven quarter-note beats",
+        "Two, two, then three eighth notes",
+        "Three groups of three",
+        "Four, four, then four eighth notes"
+      ],
+      "correct_index": 1,
+      "explanation": "A 2+2+3 bar groups seven eighth notes into three unequal pulses.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "A quarter note tied to an eighth note lasts how many eighth-note units?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct_index": 0,
+      "explanation": "A quarter lasts two eighths, and the tied eighth adds one.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
@@ -1282,26 +1282,26 @@
       "category": "theory",
       "prompt": "What is the second scale degree of F Phrygian?",
       "options": [
-        "G-flat",
-        "G",
         "A-flat",
-        "E"
+        "E",
+        "G-flat",
+        "G"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "explanation": "Phrygian has a lowered second, so F Phrygian uses G-flat.",
       "source": "https://www.musictheory.net/lessons/"
     },
     {
       "category": "theory",
-      "prompt": "In F major, which chord is built on scale degree two (ii)?",
+      "prompt": "Which harmonic progression is an authentic cadence?",
       "options": [
-        "G major",
-        "A minor",
-        "B-flat major",
-        "G minor"
+        "vi to IV",
+        "V to I",
+        "IV to I",
+        "I to ii"
       ],
-      "correct_index": 3,
-      "explanation": "F major's second degree is G; G-B-flat-D makes G minor.",
+      "correct_index": 1,
+      "explanation": "An authentic cadence resolves from dominant harmony to tonic.",
       "source": "https://www.musictheory.net/lessons/"
     }
   ]
