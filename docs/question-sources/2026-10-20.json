@@ -1,0 +1,1308 @@
+{
+  "date": "2026-10-20",
+  "previous": 857,
+  "added": 100,
+  "total": 957,
+  "questions": [
+    {
+      "category": "rock",
+      "prompt": "Which Duran Duran duo inducted Roxy Music into the Rock Hall?",
+      "options": [
+        "Nick Rhodes and Roger Taylor",
+        "Bono and The Edge",
+        "David Byrne and Jerry Harrison",
+        "John Taylor and Simon Le Bon"
+      ],
+      "correct_index": 3,
+      "explanation": "John Taylor and Simon Le Bon inducted Roxy Music in 2019.",
+      "source": "https://rockhall.com/inductees/roxy-music/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which electronic-music pioneer is listed among Roxy Music's Rock Hall members?",
+      "options": [
+        "Giorgio Moroder",
+        "Jean-Michel Jarre",
+        "Brian Eno",
+        "Vangelis"
+      ],
+      "correct_index": 2,
+      "explanation": "Brian Eno is one of the six names on Roxy Music's Rock Hall plaque.",
+      "source": "https://rockhall.com/inductees/roxy-music/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Roxy Music song was featured at its Rock Hall induction?",
+      "options": [
+        "Cars",
+        "Video Killed the Radio Star",
+        "Love Is the Drug",
+        "Boys Don't Cry"
+      ],
+      "correct_index": 2,
+      "explanation": "The Hall lists Love Is the Drug as the band's induction performance.",
+      "source": "https://rockhall.com/inductees/roxy-music/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which guitarist is named among Roxy Music's Rock Hall inductees?",
+      "options": [
+        "Mick Ronson",
+        "Robert Fripp",
+        "Steve Hackett",
+        "Phil Manzanera"
+      ],
+      "correct_index": 3,
+      "explanation": "Phil Manzanera is among the six Roxy Music inductees.",
+      "source": "https://rockhall.com/inductees/roxy-music/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Killers frontman inducted the Cars into the Rock Hall?",
+      "options": [
+        "Julian Casablancas",
+        "Alex Turner",
+        "Gerard Way",
+        "Brandon Flowers"
+      ],
+      "correct_index": 3,
+      "explanation": "Brandon Flowers inducted the Cars in 2018.",
+      "source": "https://rockhall.com/inductees/cars/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Cars track is listed among the songs performed at their induction?",
+      "options": [
+        "I Ran (So Far Away)",
+        "Cars and Girls",
+        "Tainted Love",
+        "Moving in Stereo"
+      ],
+      "correct_index": 3,
+      "explanation": "Moving in Stereo is listed in the Cars' induction performances.",
+      "source": "https://rockhall.com/inductees/cars/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which musician appears on the Cars' Rock Hall plaque?",
+      "options": [
+        "Greg Hawkes",
+        "John Taylor",
+        "Alan Wilder",
+        "Peter Hook"
+      ],
+      "correct_index": 0,
+      "explanation": "Greg Hawkes is listed with the Cars' inducted lineup.",
+      "source": "https://rockhall.com/inductees/cars/"
+    },
+    {
+      "category": "rock",
+      "prompt": "In which year did the Cars enter the Rock & Roll Hall of Fame?",
+      "options": [
+        "2004",
+        "2022",
+        "2018",
+        "2011"
+      ],
+      "correct_index": 2,
+      "explanation": "The Cars were inducted as performers in 2018.",
+      "source": "https://rockhall.com/inductees/cars/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Foo Fighters drummer co-inducted Rush with Dave Grohl?",
+      "options": [
+        "Taylor Hawkins",
+        "Josh Freese",
+        "Dave Lombardo",
+        "Chad Smith"
+      ],
+      "correct_index": 0,
+      "explanation": "Dave Grohl and Taylor Hawkins inducted Rush in 2013.",
+      "source": "https://rockhall.com/inductees/rush/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rush album contains The Spirit of Radio?",
+      "options": [
+        "Grace Under Pressure",
+        "Permanent Waves",
+        "Signals",
+        "Hemispheres"
+      ],
+      "correct_index": 1,
+      "explanation": "The Spirit of Radio is on Permanent Waves (1980).",
+      "source": "https://rockhall.com/inductees/rush/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rush album contains Closer to the Heart?",
+      "options": [
+        "Caress of Steel",
+        "Power Windows",
+        "Hold Your Fire",
+        "A Farewell to Kings"
+      ],
+      "correct_index": 3,
+      "explanation": "Closer to the Heart is on A Farewell to Kings (1977).",
+      "source": "https://rockhall.com/inductees/rush/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rush album features Tom Sawyer?",
+      "options": [
+        "2112",
+        "Counterparts",
+        "Moving Pictures",
+        "Fly by Night"
+      ],
+      "correct_index": 2,
+      "explanation": "Tom Sawyer appears on Moving Pictures (1981).",
+      "source": "https://rockhall.com/inductees/rush/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which U2 guitarist inducted Eurythmics into the Rock Hall?",
+      "options": [
+        "The Edge",
+        "Adam Clayton",
+        "Bono",
+        "Larry Mullen Jr."
+      ],
+      "correct_index": 0,
+      "explanation": "The Edge inducted Eurythmics in 2022.",
+      "source": "https://rockhall.com/inductees/eurythmics/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who formed Eurythmics with singer Annie Lennox?",
+      "options": [
+        "Trevor Horn",
+        "Vince Clarke",
+        "Howard Jones",
+        "Dave Stewart"
+      ],
+      "correct_index": 3,
+      "explanation": "The duo consisted of Annie Lennox and David A. Stewart.",
+      "source": "https://rockhall.com/inductees/eurythmics/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Eurythmics song was performed at their Rock Hall induction?",
+      "options": [
+        "Missionary Man",
+        "Take On Me",
+        "West End Girls",
+        "Blue Monday"
+      ],
+      "correct_index": 0,
+      "explanation": "The Hall lists Missionary Man among their induction songs.",
+      "source": "https://rockhall.com/inductees/eurythmics/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which style did the Rock Hall cite among Eurythmics' musical influences?",
+      "options": [
+        "Bebop",
+        "Krautrock",
+        "Bluegrass",
+        "Ska punk"
+      ],
+      "correct_index": 1,
+      "explanation": "The Hall notes Eurythmics drew on Krautrock's mechanistic funk.",
+      "source": "https://rockhall.com/inductees/eurythmics/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which No Doubt singer inducted the Police into the Rock Hall?",
+      "options": [
+        "Debbie Harry",
+        "Annie Lennox",
+        "Gwen Stefani",
+        "Shirley Manson"
+      ],
+      "correct_index": 2,
+      "explanation": "Gwen Stefani inducted the Police in 2003.",
+      "source": "https://rockhall.com/inductees/police/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which genre strongly influenced the Police's twist on new wave?",
+      "options": [
+        "Rockabilly",
+        "Reggae",
+        "Bluegrass",
+        "Disco polo"
+      ],
+      "correct_index": 1,
+      "explanation": "The Rock Hall describes the Police's sound as reggae-infused new wave.",
+      "source": "https://rockhall.com/inductees/police/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who was the drummer in the Police's inducted trio?",
+      "options": [
+        "Sting",
+        "Charlie Watts",
+        "Stewart Copeland",
+        "Andy Summers"
+      ],
+      "correct_index": 2,
+      "explanation": "The inducted Police trio included drummer Stewart Copeland.",
+      "source": "https://rockhall.com/inductees/police/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Police song is listed as an induction performance by the Rock Hall?",
+      "options": [
+        "Baker Street",
+        "Rebel Rebel",
+        "Owner of a Lonely Heart",
+        "Roxanne"
+      ],
+      "correct_index": 3,
+      "explanation": "Roxanne is featured in the band's Rock Hall induction section.",
+      "source": "https://rockhall.com/inductees/police/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which 1984 Tina Turner album includes What's Love Got to Do with It?",
+      "options": [
+        "Private Dancer",
+        "Foreign Affair",
+        "Break Every Rule",
+        "Wildest Dreams"
+      ],
+      "correct_index": 0,
+      "explanation": "What's Love Got to Do with It appears on Private Dancer (1984).",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Tina Turner album includes her recording of The Best?",
+      "options": [
+        "Private Dancer",
+        "Rough",
+        "Twenty Four Seven",
+        "Foreign Affair"
+      ],
+      "correct_index": 3,
+      "explanation": "The Best appears on Foreign Affair (1989).",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Dire Straits musician wrote Tina Turner's song Private Dancer?",
+      "options": [
+        "Alan Clark",
+        "Pick Withers",
+        "Mark Knopfler",
+        "John Illsley"
+      ],
+      "correct_index": 2,
+      "explanation": "Mark Knopfler wrote Private Dancer.",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which guitar virtuoso played a solo on Tina Turner's Private Dancer?",
+      "options": [
+        "Jeff Beck",
+        "Steve Vai",
+        "Joe Satriani",
+        "Eric Johnson"
+      ],
+      "correct_index": 0,
+      "explanation": "Jeff Beck performed a guitar solo on the recording.",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which actor inducted Tina Turner into the Rock Hall in 2021?",
+      "options": [
+        "Viola Davis",
+        "Halle Berry",
+        "Regina King",
+        "Angela Bassett"
+      ],
+      "correct_index": 3,
+      "explanation": "Angela Bassett inducted Tina Turner in 2021.",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which film soundtrack featured Tina Turner's We Don't Need Another Hero?",
+      "options": [
+        "Mad Max Beyond Thunderdome",
+        "Top Gun",
+        "The Bodyguard",
+        "Footloose"
+      ],
+      "correct_index": 0,
+      "explanation": "The song appeared on the Mad Max Beyond Thunderdome soundtrack.",
+      "source": "https://rockhall.com/inductees/tina-turner/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which actor inducted Sheryl Crow into the Rock Hall in 2023?",
+      "options": [
+        "Reese Witherspoon",
+        "Nicole Kidman",
+        "Susan Sarandon",
+        "Laura Dern"
+      ],
+      "correct_index": 3,
+      "explanation": "Laura Dern inducted Sheryl Crow in 2023.",
+      "source": "https://rockhall.com/inductees/sheryl-crow/"
+    },
+    {
+      "category": "legends",
+      "prompt": "In what year did Sheryl Crow release her debut album?",
+      "options": [
+        "1993",
+        "1986",
+        "2001",
+        "1979"
+      ],
+      "correct_index": 0,
+      "explanation": "The Rock Hall dates Sheryl Crow's debut album to 1993.",
+      "source": "https://rockhall.com/inductees/sheryl-crow/"
+    },
+    {
+      "category": "legends",
+      "prompt": "What creative responsibility did Sheryl Crow take on for her 1996 self-titled album?",
+      "options": [
+        "Production",
+        "Concert lighting",
+        "Orchestra conducting",
+        "Album cover photography"
+      ],
+      "correct_index": 0,
+      "explanation": "The Rock Hall says Crow took the production reins for her 1996 follow-up.",
+      "source": "https://rockhall.com/inductees/sheryl-crow/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which guitarist joined Stevie Nicks in Sheryl Crow's induction tribute?",
+      "options": [
+        "Billy Gibbons",
+        "Peter Frampton",
+        "Carlos Santana",
+        "Joe Walsh"
+      ],
+      "correct_index": 1,
+      "explanation": "Peter Frampton joined Stevie Nicks in the induction tribute.",
+      "source": "https://rockhall.com/inductees/sheryl-crow/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which singer-songwriter inducted Joni Mitchell into the Rock Hall?",
+      "options": [
+        "Joan Baez",
+        "Shawn Colvin",
+        "Suzanne Vega",
+        "Tracy Chapman"
+      ],
+      "correct_index": 1,
+      "explanation": "Shawn Colvin inducted Joni Mitchell in 1997.",
+      "source": "https://rockhall.com/inductees/joni-mitchell/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who gave Joni Mitchell's Rock Hall acceptance speech on her behalf?",
+      "options": [
+        "Stephen Stills",
+        "Neil Young",
+        "Graham Nash",
+        "David Crosby"
+      ],
+      "correct_index": 2,
+      "explanation": "Graham Nash accepted on Joni Mitchell's behalf.",
+      "source": "https://rockhall.com/inductees/joni-mitchell/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Joni Mitchell composition did James Taylor perform at her induction?",
+      "options": [
+        "A Case of You",
+        "Big Yellow Taxi",
+        "Both Sides, Now",
+        "Woodstock"
+      ],
+      "correct_index": 3,
+      "explanation": "James Taylor performed Mitchell's Woodstock at the induction.",
+      "source": "https://rockhall.com/inductees/joni-mitchell/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Joni Mitchell song did Shawn Colvin perform at her induction?",
+      "options": [
+        "Help Me",
+        "Carey",
+        "Chelsea Morning",
+        "Free Man in Paris"
+      ],
+      "correct_index": 3,
+      "explanation": "Shawn Colvin performed Free Man in Paris at the ceremony.",
+      "source": "https://rockhall.com/inductees/joni-mitchell/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Pearl Jam singer inducted Neil Young into the Rock Hall?",
+      "options": [
+        "Scott Weiland",
+        "Layne Staley",
+        "Eddie Vedder",
+        "Chris Cornell"
+      ],
+      "correct_index": 2,
+      "explanation": "Eddie Vedder inducted Neil Young in 1995.",
+      "source": "https://rockhall.com/inductees/neil-young/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Eagles member inducted songwriter Randy Newman into the Rock Hall?",
+      "options": [
+        "Randy Meisner",
+        "Don Henley",
+        "Joe Walsh",
+        "Glenn Frey"
+      ],
+      "correct_index": 1,
+      "explanation": "Don Henley inducted Randy Newman in 2013.",
+      "source": "https://rockhall.com/inductees/randy-newman/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which earlier band is linked to Neil Young on his Rock Hall page?",
+      "options": [
+        "Buffalo Springfield",
+        "The Band",
+        "The Hollies",
+        "The Byrds"
+      ],
+      "correct_index": 0,
+      "explanation": "Buffalo Springfield is listed as a connected inductee for Neil Young.",
+      "source": "https://rockhall.com/inductees/neil-young/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Neil Young song is featured in his Rock Hall induction performances?",
+      "options": [
+        "Running on Empty",
+        "Act of Love",
+        "Born to Run",
+        "Heart of Glass"
+      ],
+      "correct_index": 1,
+      "explanation": "Act of Love is listed in Neil Young's induction performances.",
+      "source": "https://rockhall.com/inductees/neil-young/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which singer inducted blues guitarist Bonnie Raitt into the Rock Hall?",
+      "options": [
+        "Emmylou Harris",
+        "Linda Ronstadt",
+        "Melissa Etheridge",
+        "Pat Benatar"
+      ],
+      "correct_index": 2,
+      "explanation": "Melissa Etheridge inducted Bonnie Raitt in 2000.",
+      "source": "https://rockhall.com/inductees/bonnie-raitt/"
+    },
+    {
+      "category": "legends",
+      "prompt": "In which year did Bonnie Raitt make her recording debut, according to the Rock Hall?",
+      "options": [
+        "1961",
+        "1981",
+        "1991",
+        "1971"
+      ],
+      "correct_index": 3,
+      "explanation": "The Hall's essay dates Bonnie Raitt's recording debut to 1971.",
+      "source": "https://rockhall.com/inductees/bonnie-raitt/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many effect modes does the BOSS DD-8 Digital Delay offer?",
+      "options": [
+        "16",
+        "11",
+        "4",
+        "7"
+      ],
+      "correct_index": 1,
+      "explanation": "BOSS specifies eleven modes for the DD-8.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the DD-8's maximum mono loop-recording time?",
+      "options": [
+        "40 seconds",
+        "10 seconds",
+        "90 seconds",
+        "5 minutes"
+      ],
+      "correct_index": 0,
+      "explanation": "The DD-8 loop mode records up to 40 seconds in mono.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the DD-8's maximum delay time with tap tempo?",
+      "options": [
+        "40 seconds",
+        "60 seconds",
+        "10 seconds",
+        "1 second"
+      ],
+      "correct_index": 2,
+      "explanation": "BOSS lists a maximum of 10 seconds of delay time.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "On the BOSS DD-8, what does the +RV mode combine?",
+      "options": [
+        "Delay and distortion",
+        "Chorus and tremolo",
+        "Flanger and fuzz",
+        "Delay and reverb"
+      ],
+      "correct_index": 3,
+      "explanation": "The +RV mode adds reverb to digital delay.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which DD-8 mode produces glitchy, machine-gun-like repeats?",
+      "options": [
+        "Tape",
+        "Analog",
+        "GLT",
+        "Warm"
+      ],
+      "correct_index": 2,
+      "explanation": "BOSS describes GLT as a rhythmic glitch-style delay mode.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What does the DD-8 Carryover switch control?",
+      "options": [
+        "The pedal's tuner calibration",
+        "Whether delay tails continue after bypass",
+        "The guitar's pickup selection",
+        "The amp's speaker impedance"
+      ],
+      "correct_index": 1,
+      "explanation": "Carryover selects whether repeats trail on or stop after bypass.",
+      "source": "https://www.boss.info/global/products/dd-8/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many phrase memories can the BOSS RC-5 Loop Station store?",
+      "options": [
+        "256",
+        "99",
+        "12",
+        "32"
+      ],
+      "correct_index": 1,
+      "explanation": "The RC-5 has 99 onboard phrase memories.",
+      "source": "https://www.boss.info/global/products/rc-5/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How much total stereo recording time does the BOSS RC-5 provide?",
+      "options": [
+        "About 90 seconds",
+        "About 48 hours",
+        "About 13 hours",
+        "About 13 minutes"
+      ],
+      "correct_index": 2,
+      "explanation": "BOSS specifies approximately 13 hours across all memories.",
+      "source": "https://www.boss.info/global/products/rc-5/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many drum kits are built into the BOSS RC-5?",
+      "options": [
+        "32",
+        "7",
+        "2",
+        "16"
+      ],
+      "correct_index": 1,
+      "explanation": "The RC-5 includes seven different rhythm drum kits.",
+      "source": "https://www.boss.info/global/products/rc-5/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many preset rhythm patterns does the RC-5 have?",
+      "options": [
+        "57",
+        "8",
+        "24",
+        "128"
+      ],
+      "correct_index": 0,
+      "explanation": "BOSS lists 57 preset rhythms with A/B variations.",
+      "source": "https://www.boss.info/global/products/rc-5/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What processing format does the RC-5 use internally?",
+      "options": [
+        "12-bit fixed point",
+        "16-bit ADPCM",
+        "32-bit floating point",
+        "8-bit integer"
+      ],
+      "correct_index": 2,
+      "explanation": "BOSS specifies 32-bit floating-point processing.",
+      "source": "https://www.boss.info/global/products/rc-5/"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many LED meter segments are on the BOSS TU-3 tuner?",
+      "options": [
+        "40",
+        "21",
+        "5",
+        "12"
+      ],
+      "correct_index": 1,
+      "explanation": "The TU-3 has a 21-segment LED tuning meter.",
+      "source": "https://www.boss.info/global/products/tu-3/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What tuning accuracy does BOSS specify for the TU-3?",
+      "options": [
+        "Plus or minus one cent",
+        "Plus or minus one semitone",
+        "Plus or minus 10 cents",
+        "Plus or minus one octave"
+      ],
+      "correct_index": 0,
+      "explanation": "The TU-3 is specified as accurate to ±1 cent.",
+      "source": "https://www.boss.info/global/products/tu-3/"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did BOSS introduce its TU-2 pedal tuner?",
+      "options": [
+        "1998",
+        "1976",
+        "1987",
+        "2015"
+      ],
+      "correct_index": 0,
+      "explanation": "BOSS introduced the TU-2 pedal chromatic tuner in 1998.",
+      "source": "https://www.boss.info/global/products/tu-3/"
+    },
+    {
+      "category": "gear",
+      "prompt": "What happens to the TU-3's output when tuning is engaged?",
+      "options": [
+        "It adds an octave",
+        "It switches to stereo",
+        "It boosts 12 dB",
+        "It mutes for silent tuning"
+      ],
+      "correct_index": 3,
+      "explanation": "The TU-3 automatically mutes its output while tuning.",
+      "source": "https://www.boss.info/global/products/tu-3/"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did BOSS launch its first chorus pedal, the CE-1?",
+      "options": [
+        "2001",
+        "1976",
+        "1964",
+        "1989"
+      ],
+      "correct_index": 1,
+      "explanation": "The CE-1 Chorus Ensemble debuted in 1976.",
+      "source": "https://www.boss.info/global/products/ce-2w/"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year was the original BOSS CE-2 Chorus released?",
+      "options": [
+        "1970",
+        "1995",
+        "2016",
+        "1979"
+      ],
+      "correct_index": 3,
+      "explanation": "The compact CE-2 Chorus was introduced in 1979.",
+      "source": "https://www.boss.info/global/products/ce-2w/"
+    },
+    {
+      "category": "gear",
+      "prompt": "Where is the BOSS CE-2W Waza Craft chorus manufactured?",
+      "options": [
+        "Germany",
+        "Japan",
+        "Mexico",
+        "Canada"
+      ],
+      "correct_index": 1,
+      "explanation": "BOSS states that the CE-2W is made in Japan.",
+      "source": "https://www.boss.info/global/products/ce-2w/"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which delay-line technology does the analog BOSS CE-2W use?",
+      "options": [
+        "Magnetic tape cassette",
+        "Optical disc",
+        "Spring tank",
+        "Bucket-brigade (BBD)"
+      ],
+      "correct_index": 3,
+      "explanation": "The CE-2W uses an analog bucket-brigade delay line.",
+      "source": "https://www.boss.info/global/products/ce-2w/"
+    },
+    {
+      "category": "gear",
+      "prompt": "Since what year has BOSS continuously produced the BD-2 Blues Driver?",
+      "options": [
+        "2011",
+        "1995",
+        "1976",
+        "1982"
+      ],
+      "correct_index": 1,
+      "explanation": "BOSS dates continuous BD-2 production to 1995.",
+      "source": "https://www.boss.info/global/products/bd-2/"
+    },
+    {
+      "category": "studio",
+      "prompt": "Which two designs make up the main types of dynamic microphones?",
+      "options": [
+        "USB and XLR",
+        "Moving-coil and ribbon",
+        "Condenser and electret",
+        "Cardioid and omni"
+      ],
+      "correct_index": 1,
+      "explanation": "Shure identifies moving-coil and ribbon as the two dynamic-mic types.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "Which metal is commonly used for a ribbon microphone's thin element?",
+      "options": [
+        "Gold",
+        "Lead",
+        "Aluminum",
+        "Tungsten"
+      ],
+      "correct_index": 2,
+      "explanation": "Shure describes a typically corrugated aluminum ribbon element.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "In a moving-coil dynamic microphone, what generates the signal?",
+      "options": [
+        "A battery heating the capsule",
+        "A piezo crystal under the grille",
+        "A coil moving through a magnetic field",
+        "A laser measuring the diaphragm"
+      ],
+      "correct_index": 2,
+      "explanation": "Diaphragm motion moves a coil in a magnet's field.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why might a passive ribbon microphone need more preamp gain?",
+      "options": [
+        "It has no diaphragm",
+        "It uses a speaker output",
+        "Its electrical output is often relatively low",
+        "It always transmits MIDI"
+      ],
+      "correct_index": 2,
+      "explanation": "Ribbon mics often have low output and can require extra preamplification.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "Compared with an omni, approximately how much ambient sound can a cardioid pick up, according to Shure?",
+      "options": [
+        "Ten times as much",
+        "Exactly the same amount",
+        "About one-third as much",
+        "Exactly twice as much"
+      ],
+      "correct_index": 2,
+      "explanation": "Shure gives about one-third the ambient pickup for a cardioid versus an omni.",
+      "source": "https://www.shure.com/en-US/insights/microphone-basics-transducers-polar-patterns-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "At approximately what angle is a supercardioid microphone least sensitive?",
+      "options": [
+        "45 degrees off-axis",
+        "125 degrees off-axis",
+        "180 degrees off-axis",
+        "90 degrees off-axis"
+      ],
+      "correct_index": 1,
+      "explanation": "Shure places the supercardioid rejection null near 125 degrees.",
+      "source": "https://www.shure.com/en-US/insights/specialist-polar-patterns-hypercardioid-and-subcardioid"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why can a hypercardioid mic pick up a monitor directly behind it?",
+      "options": [
+        "It converts all sound to stereo",
+        "Its cable amplifies the monitor",
+        "Its rear pickup lobe is more sensitive than a cardioid's",
+        "It has no diaphragm"
+      ],
+      "correct_index": 2,
+      "explanation": "Hypercardioid patterns have a rear pickup lobe, so wedges need careful placement.",
+      "source": "https://www.shure.com/en-US/insights/specialist-polar-patterns-hypercardioid-and-subcardioid"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is another name for a subcardioid microphone pattern?",
+      "options": [
+        "True omnidirectional",
+        "Wide cardioid",
+        "Figure-eight",
+        "Shotgun"
+      ],
+      "correct_index": 1,
+      "explanation": "Shure also calls subcardioid a wide-cardioid pattern.",
+      "source": "https://www.shure.com/en-US/insights/specialist-polar-patterns-hypercardioid-and-subcardioid"
+    },
+    {
+      "category": "studio",
+      "prompt": "Which setting is generally better suited to a subcardioid mic than a hypercardioid mic?",
+      "options": [
+        "An extreme isolation setup on a loud stage",
+        "A close-miked snare next to cymbals",
+        "A quiet acoustic performance with low stage volume",
+        "A loud wedge monitor directly behind the mic"
+      ],
+      "correct_index": 2,
+      "explanation": "Shure suggests subcardioid for quiet, natural-sounding acoustic situations.",
+      "source": "https://www.shure.com/en-US/insights/specialist-polar-patterns-hypercardioid-and-subcardioid"
+    },
+    {
+      "category": "studio",
+      "prompt": "What phantom-power voltage is typical for studio condenser microphones?",
+      "options": [
+        "110 volts AC",
+        "1.5 volts DC",
+        "48 volts DC",
+        "5 volts AC"
+      ],
+      "correct_index": 2,
+      "explanation": "Shure cites 48 V DC as typical studio phantom power.",
+      "source": "https://www.shure.com/en-us/insights/what-is-phantom-power-why-do-i-need-it"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why does Shure advise switching off phantom power while connecting microphones?",
+      "options": [
+        "To convert balanced audio to stereo",
+        "To avoid loud pops and potential surges",
+        "To change the mic's polar pattern",
+        "To remove the microphone's magnet"
+      ],
+      "correct_index": 1,
+      "explanation": "Turning phantom off during connections helps avoid pops and transients.",
+      "source": "https://www.shure.com/en-us/insights/what-is-phantom-power-why-do-i-need-it"
+    },
+    {
+      "category": "studio",
+      "prompt": "What voltage range is typical for microphone bias power, according to Shure?",
+      "options": [
+        "200 to 400 volts DC",
+        "0.01 to 0.1 volts AC",
+        "1.5 to 9 volts DC",
+        "48 to 120 volts AC"
+      ],
+      "correct_index": 2,
+      "explanation": "Shure distinguishes low-voltage bias, typically 1.5–9 V, from phantom.",
+      "source": "https://www.shure.com/en-US/insights/shure-tech-tip-phantom-power-vs-bias-voltage"
+    },
+    {
+      "category": "studio",
+      "prompt": "How is electret microphone bias commonly supplied, unlike balanced phantom power?",
+      "options": [
+        "By magnetic induction from the stand",
+        "On a single conductor",
+        "Equally on two balanced XLR signal pins",
+        "Through a speaker cable only"
+      ],
+      "correct_index": 1,
+      "explanation": "Shure describes bias as DC carried on a single conductor.",
+      "source": "https://www.shure.com/en-US/insights/shure-tech-tip-phantom-power-vs-bias-voltage"
+    },
+    {
+      "category": "studio",
+      "prompt": "In Shure's description, where is a vocal mic's presence rise often centered?",
+      "options": [
+        "Around 3 to 6 kHz",
+        "Around 20 to 50 Hz",
+        "Around 50 to 100 Hz",
+        "Around 30 to 40 kHz"
+      ],
+      "correct_index": 0,
+      "explanation": "Shure places a common upper-mid presence rise around 3–6 kHz.",
+      "source": "https://www.shure.com/en-US/insights/mic-basics-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why might a vocal microphone intentionally roll off low frequencies?",
+      "options": [
+        "To add more sub-bass",
+        "To increase phantom voltage",
+        "To create stereo width",
+        "To reduce rumble and handling noise"
+      ],
+      "correct_index": 3,
+      "explanation": "Shure notes that low-frequency roll-off reduces rumble and handling noise.",
+      "source": "https://www.shure.com/en-US/insights/mic-basics-frequency-response"
+    },
+    {
+      "category": "studio",
+      "prompt": "Using the 3-to-1 rule, how far apart should two mics be if each is 2 feet from its source?",
+      "options": [
+        "At most 1 foot",
+        "At least 20 feet",
+        "At least 6 feet",
+        "Exactly 2 feet"
+      ],
+      "correct_index": 2,
+      "explanation": "The 3-to-1 rule recommends at least three times the source distance.",
+      "source": "https://www.shure.com/en-US/docs/education/house-of-worship-audio-systems"
+    },
+    {
+      "category": "studio",
+      "prompt": "In Mid-Side stereo recording, which polar pattern is used for the Side mic?",
+      "options": [
+        "Hypercardioid only",
+        "Omnidirectional only",
+        "Figure-eight (bidirectional)",
+        "Cardioid only"
+      ],
+      "correct_index": 2,
+      "explanation": "The Side channel uses a bidirectional mic pointing left and right.",
+      "source": "https://www.soundonsound.com/techniques/introduction-mid-sides-recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "In an M-S recording, which level is adjusted to change stereo width?",
+      "options": [
+        "The Side channel",
+        "The metronome track",
+        "The phantom-power voltage",
+        "The audio bit depth"
+      ],
+      "correct_index": 0,
+      "explanation": "Changing Side level adjusts the decoded stereo width.",
+      "source": "https://www.soundonsound.com/techniques/introduction-mid-sides-recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "What happens to the Side component when a correctly decoded M-S signal is summed to mono?",
+      "options": [
+        "It becomes the only signal",
+        "It cancels, leaving the Mid",
+        "It doubles the bass",
+        "It shifts up one octave"
+      ],
+      "correct_index": 1,
+      "explanation": "The opposite-polarity Side signals cancel in mono.",
+      "source": "https://www.soundonsound.com/techniques/introduction-mid-sides-recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why is an X-Y coincident mic pair usually more mono-compatible than a widely spaced pair?",
+      "options": [
+        "Both capsules capture arrivals at nearly the same time",
+        "Both mics always have different sample rates",
+        "One mic is deliberately muted",
+        "The microphones use different cables"
+      ],
+      "correct_index": 0,
+      "explanation": "Closely placed X-Y capsules minimize inter-mic arrival-time differences.",
+      "source": "https://www.soundonsound.com/techniques/first-steps-direct-stereo-recording"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the third flat in the standard order of key-signature flats?",
+      "options": [
+        "A-flat",
+        "B-flat",
+        "D-flat",
+        "G-flat"
+      ],
+      "correct_index": 0,
+      "explanation": "Flats appear in the order B, E, A, D, G, C, F.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which major key shares its key signature with G-sharp minor?",
+      "options": [
+        "A major",
+        "E major",
+        "D major",
+        "B major"
+      ],
+      "correct_index": 3,
+      "explanation": "G-sharp minor and B major are relative keys with five sharps.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which major key is enharmonically equivalent to C-sharp major?",
+      "options": [
+        "C major",
+        "E-flat major",
+        "D-flat major",
+        "D major"
+      ],
+      "correct_index": 2,
+      "explanation": "C-sharp and D-flat are the same tonic pitch in equal temperament.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the parallel major key of E-flat minor?",
+      "options": [
+        "C minor",
+        "E-flat major",
+        "G-flat major",
+        "B major"
+      ],
+      "correct_index": 1,
+      "explanation": "Parallel major and minor keys share the same tonic.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In a chord symbol, what does 'add9' usually mean?",
+      "options": [
+        "Add the ninth without requiring a seventh",
+        "Raise the ninth by a semitone",
+        "Play nine separate notes",
+        "Remove the chord's root"
+      ],
+      "correct_index": 0,
+      "explanation": "An add9 chord adds the ninth but does not imply a seventh.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What does the slash chord symbol C/E specify?",
+      "options": [
+        "An E major chord with C in the bass",
+        "A C minor chord",
+        "Two chords played simultaneously",
+        "A C major chord with E in the bass"
+      ],
+      "correct_index": 3,
+      "explanation": "In C/E, the letter after the slash identifies the bass note.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which seventh-chord quality does the symbol ø7 indicate?",
+      "options": [
+        "Dominant seventh",
+        "Fully augmented seventh",
+        "Half-diminished seventh",
+        "Major seventh"
+      ],
+      "correct_index": 2,
+      "explanation": "The slashed circle denotes a half-diminished seventh chord.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How do you turn a G major triad into G minor?",
+      "options": [
+        "Lower D to D-flat",
+        "Lower B to B-flat",
+        "Raise D to D-sharp",
+        "Raise G to G-sharp"
+      ],
+      "correct_index": 1,
+      "explanation": "Changing the major third B to minor third B-flat makes G minor.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which Roman numeral commonly represents the submediant triad in a major key?",
+      "options": [
+        "vi",
+        "IV",
+        "V",
+        "ii"
+      ],
+      "correct_index": 0,
+      "explanation": "The submediant is scale degree six; its diatonic triad is minor.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In four-part harmony, what does doubling a chord's root mean?",
+      "options": [
+        "The chord root rises by an octave only",
+        "The chord is repeated twice",
+        "The bass note is deleted",
+        "Two voices play the root in different registers"
+      ],
+      "correct_index": 3,
+      "explanation": "Doubling means assigning the same chord tone to more than one voice.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many semitones make up a major sixth?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "7"
+      ],
+      "correct_index": 2,
+      "explanation": "A major sixth spans nine semitones in equal temperament.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many semitones separate B natural and C natural?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct_index": 1,
+      "explanation": "B and C natural are adjacent pitches a half step apart.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which interval is enharmonically equivalent to an augmented fourth?",
+      "options": [
+        "Diminished fifth",
+        "Perfect fifth",
+        "Major third",
+        "Minor sixth"
+      ],
+      "correct_index": 0,
+      "explanation": "An augmented fourth and diminished fifth both span six semitones.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In 12-tone equal temperament, how many cents are in one semitone?",
+      "options": [
+        "12",
+        "50",
+        "120",
+        "100"
+      ],
+      "correct_index": 3,
+      "explanation": "An octave is 1,200 cents, divided into twelve 100-cent semitones.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How much additional duration does a double dot add to a note?",
+      "options": [
+        "Twice its original value",
+        "No extra duration",
+        "Three-quarters of its original value",
+        "One-quarter of its original value"
+      ],
+      "correct_index": 2,
+      "explanation": "The first dot adds one-half; the second adds one-quarter.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which eighth-note grouping creates a 2+2+3 pattern in 7/8?",
+      "options": [
+        "Seven quarter-note beats",
+        "Two, two, then three eighth notes",
+        "Three groups of three",
+        "Four, four, then four eighth notes"
+      ],
+      "correct_index": 1,
+      "explanation": "A 2+2+3 bar groups seven eighth notes into three unequal pulses.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "A quarter note tied to an eighth note lasts how many eighth-note units?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "correct_index": 0,
+      "explanation": "A quarter lasts two eighths, and the tied eighth adds one.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What interval lies between the sixth and raised seventh of a harmonic minor scale?",
+      "options": [
+        "Major second",
+        "Minor second",
+        "Perfect fourth",
+        "Augmented second"
+      ],
+      "correct_index": 3,
+      "explanation": "The raised seventh creates an augmented second above the sixth degree.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the second scale degree of F Phrygian?",
+      "options": [
+        "A-flat",
+        "E",
+        "G-flat",
+        "G"
+      ],
+      "correct_index": 2,
+      "explanation": "Phrygian has a lowered second, so F Phrygian uses G-flat.",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which harmonic progression is an authentic cadence?",
+      "options": [
+        "vi to IV",
+        "V to I",
+        "IV to I",
+        "I to ii"
+      ],
+      "correct_index": 1,
+      "explanation": "An authentic cadence resolves from dominant harmony to tonic.",
+      "source": "https://www.musictheory.net/lessons/"
+    }
+  ]
+}

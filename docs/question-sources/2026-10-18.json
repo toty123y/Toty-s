@@ -1,0 +1,508 @@
+{
+  "date": "2026-10-18",
+  "previous": 657,
+  "added": 100,
+  "total": 757,
+  "questions": [
+    {
+      "category": "rock",
+      "prompt": "After Joy Division ended, which band did the surviving members form?",
+      "source": "https://rockhall.com/inductees/joy-division-new-order/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which New Order single became a landmark of electronic dance music in 1983?",
+      "source": "https://rockhall.com/inductees/joy-division-new-order/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Joy Division song became an enduring post-punk anthem?",
+      "source": "https://rockhall.com/inductees/joy-division-new-order/"
+    },
+    {
+      "category": "rock",
+      "prompt": "In which English city was Oasis formed?",
+      "source": "https://rockhall.com/inductees/oasis/"
+    },
+    {
+      "category": "rock",
+      "prompt": "What was the title of Oasis's 1994 debut studio album?",
+      "source": "https://rockhall.com/inductees/oasis/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Gallagher brother was Oasis's principal songwriter and lead guitarist?",
+      "source": "https://rockhall.com/inductees/oasis/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Before becoming a rap group, the Beastie Boys emerged from which scene?",
+      "source": "https://rockhall.com/inductees/beastie-boys/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Slayer guitarist played on the Beastie Boys track No Sleep Till Brooklyn?",
+      "source": "https://rockhall.com/inductees/beastie-boys/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rage Against the Machine album includes Bulls on Parade?",
+      "source": "https://rockhall.com/inductees/rage-against-the-machine/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Rage Against the Machine album features Guerrilla Radio?",
+      "source": "https://rockhall.com/inductees/rage-against-the-machine/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which band famously welcomed fans recording its concerts?",
+      "source": "https://rockhall.com/inductees/grateful-Dead/"
+    },
+    {
+      "category": "rock",
+      "prompt": "What was Nirvana's debut studio album before Nevermind?",
+      "source": "https://rockhall.com/inductees/nirvana/2/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which R.E.M. singer inducted Nirvana into the Rock Hall in 2014?",
+      "source": "https://rockhall.com/inductees/nirvana/2/"
+    },
+    {
+      "category": "rock",
+      "prompt": "R.E.M. first rose from the college-rock scene in which Georgia city?",
+      "source": "https://rockhall.com/inductees/rem/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Red Hot Chili Peppers singer inducted Talking Heads into the Rock Hall?",
+      "source": "https://rockhall.com/inductees/talking-heads/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Who played bass in Talking Heads?",
+      "source": "https://rockhall.com/inductees/talking-heads/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Manchester rock band joined the Rock Hall's 2026 performer class?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Seattle grunge band joined the Rock Hall's 2025 performer class?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which Detroit rock duo entered the Rock Hall as performers in 2025?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "rock",
+      "prompt": "Which British heavy-metal band appears in the Rock Hall's 2026 class?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which legendary session bassist received the Rock Hall's 2025 Musical Excellence Award?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which pianist known for sessions with the Rolling Stones and the Who was honored by the Rock Hall in 2025?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which singer-songwriter received a 2025 Rock Hall Musical Influence Award?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Philadelphia soul producer was honored for Musical Excellence in 2025?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who was Elton John's longtime lyric-writing partner honored by the Rock Hall in 2023?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which guitarist behind the instrumental Rumble received a 2023 Musical Influence Award?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which British blues bandleader received a Rock Hall Musical Influence Award in 2024?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Who recorded Hound Dog before Elvis Presley's famous version?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Ozzy Osbourne guitarist received a Rock Hall Musical Excellence Award in 2021?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which fingerstyle guitarist wrote the song Freight Train and was honored in 2022?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which gospel guitar pioneer was inducted into the Rock Hall in 2018?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Chic guitarist was honored by the Rock Hall for Musical Excellence in 2017?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Motown session bassist entered the Rock Hall in 2000?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Wrecking Crew drummer was inducted into the Rock Hall in 2000?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which influential session drummer was inducted into the Rock Hall alongside Hal Blaine in 2000?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which Beatles producer was inducted into the Rock Hall in 1999?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which country guitar virtuoso known as Mr. Guitar entered the Rock Hall in 2002?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which guitarist who played with Elvis Presley was inducted into the Rock Hall in 2001?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which producer of Michael Jackson's Thriller received a Rock Hall honor in 2013?",
+      "source": "https://rockhall.com/inductees/classes/"
+    },
+    {
+      "category": "legends",
+      "prompt": "Which record executive received the Rock Hall's Ahmet Ertegun Award in 2025?",
+      "source": "https://rockhall.com/press-release/the-rock-roll-hall-of-fame-foundation-unveils-electrifying-class-of-2025-inductees/"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did Fender introduce the Jazzmaster guitar?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did Fender introduce the Precision Bass?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did Fender launch the Stratocaster?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year did Fender introduce the Jaguar guitar?",
+      "source": "https://www.fender.com/articles/instruments/60-anniversary-jaguar"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is the traditional scale length of a Fender Jaguar?",
+      "source": "https://www.fender.com/articles/instruments/60-anniversary-jaguar"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which Fender model introduced separate lead and rhythm control circuits in 1958?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "What name did Fender use for the guitar that became the Telecaster before the trademark dispute?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "In which year was the Telecaster name adopted?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which Fender bass model first appeared in 1960?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-innovation-fender-in-the-1960s"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many pickups did the original Fender Esquire design have?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "What did the original Stratocaster's bridge arm let players change while sounding a note?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which group first embraced the Jazzmaster more readily than its intended jazz audience?",
+      "source": "https://www.fender.com/articles/behind-the-scenes/a-decade-of-beginnings-fender-in-the-1950s"
+    },
+    {
+      "category": "gear",
+      "prompt": "Which unusual mechanical feature was fitted to the original Fender Jaguar?",
+      "source": "https://www.fender.com/articles/instruments/60-anniversary-jaguar"
+    },
+    {
+      "category": "gear",
+      "prompt": "What happens electrically when a humbucker is coil-split?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "Unlike coil splitting, what does coil tapping bypass?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "What is a key benefit of wiring a humbucker's coils in parallel rather than splitting it?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "A traditional P-90 pickup uses which basic coil design?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "What extra function can a push-pull guitar potentiometer provide?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "Why do many mod-friendly humbuckers have four conductor wires?",
+      "source": "https://www.seymourduncan.com/blog/latest-updates/why-use-push-pull-pots"
+    },
+    {
+      "category": "gear",
+      "prompt": "How many frets did Fender advertise on the original Jaguar?",
+      "source": "https://www.fender.com/articles/instruments/60-anniversary-jaguar"
+    },
+    {
+      "category": "theory",
+      "prompt": "In E major, what is the ii chord?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note turns a C major triad into a C major-seventh chord?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which pitch is the ninth of a C9 chord?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which dominant-seventh chord serves as V7 in A minor?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In D major, which major chord functions as V?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the raised seventh scale degree of E harmonic minor?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which pitch is the sixth degree of A Dorian?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note is the flattened seventh in G Mixolydian?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which pitch gives F Lydian its characteristic raised fourth?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which chord is spelled D, F-sharp, A, C?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which chord is spelled A, C, E, G?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which notes spell a B diminished triad?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note is in the bass of a second-inversion C major triad?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which note is in the bass of a first-inversion E minor triad?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "Which pitch is a tritone above D in equal temperament?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "What is the interval from E up to C in the next octave?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many dotted-quarter beats are typically felt in 6/8 time?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In 9/8 time, how many eighth notes fill one complete measure?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "How many quarter-note beats are in a bar of 5/4?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "theory",
+      "prompt": "In ordinary simple meter, three eighth-note triplets occupy the time of how many quarter notes?",
+      "source": "https://www.musictheory.net/lessons/"
+    },
+    {
+      "category": "studio",
+      "prompt": "At 48 kHz, how long is a 480-sample audio buffer?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "If two identical audio signals are summed perfectly in phase, what is the approximate level increase?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "What generally happens to monitoring latency when buffer size drops from 512 to 256 samples?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "What trade-off commonly comes with using a smaller audio buffer?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "In standard balanced XLR phantom powering, which pins receive equal DC voltage?",
+      "source": "https://www.shure.com/en-US/insights/what-is-phantom-power-why-do-i-need-it"
+    },
+    {
+      "category": "studio",
+      "prompt": "Does a standard balanced moving-coil dynamic microphone need phantom power?",
+      "source": "https://www.shure.com/en-US/insights/what-is-phantom-power-why-do-i-need-it"
+    },
+    {
+      "category": "studio",
+      "prompt": "Which microphone pattern has its strongest rejection at the sides, around 90 and 270 degrees?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is proximity effect on a directional microphone?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "Which common microphone pattern normally has no proximity effect?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "What can physically damage the thin element in a traditional ribbon microphone?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "In a condenser microphone, the diaphragm and backplate form what?",
+      "source": "https://www.shure.com/en-US/docs/education/Microphone-Techniques-for-Recording"
+    },
+    {
+      "category": "studio",
+      "prompt": "At 48 kHz, what is the Nyquist frequency?",
+      "source": "https://www.izotope.com/community/blog/digital-audio-basics-sample-rate-and-bit-depth"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does digital aliasing create when frequencies exceed the Nyquist limit without proper filtering?",
+      "source": "https://www.izotope.com/community/blog/digital-audio-basics-sample-rate-and-bit-depth"
+    },
+    {
+      "category": "studio",
+      "prompt": "At 48 kHz, approximately how long is one audio sample?",
+      "source": "https://www.izotope.com/community/blog/digital-audio-basics-sample-rate-and-bit-depth"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does plug-in delay compensation primarily keep aligned?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why are Bluetooth headphones often discouraged for live software monitoring?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "On Windows, which driver protocol is commonly preferred for low-latency audio interfaces?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "What is the single-buffer duration of 128 samples at 48 kHz, approximately?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    },
+    {
+      "category": "studio",
+      "prompt": "What does 0 dBFS represent in digital PCM audio?",
+      "source": "https://www.izotope.com/community/blog/digital-audio-basics-sample-rate-and-bit-depth"
+    },
+    {
+      "category": "studio",
+      "prompt": "Why can a lookahead audio processor increase monitoring delay?",
+      "source": "https://help.ableton.com/hc/en-us/articles/209072289-How-to-reduce-latency"
+    }
+  ]
+}
